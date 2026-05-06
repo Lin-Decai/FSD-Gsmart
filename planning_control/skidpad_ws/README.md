@@ -61,3 +61,21 @@ ros2 launch skidpad_bringup skidpad_bringup.launch.py mode:=simulation
 # 可视化
 ros2 run skidpad_control skidpad_visualizer
 ```
+
+## 迁移路径
+
+如果将工作空间移动到其他位置，需要修改以下文件中的硬编码路径：
+
+| 文件 | 需要修改的内容 |
+|------|---------------|
+| `src/skidpad_icp/config/skidpad_detector.yaml` | `skidpad_map` 的 PCD 文件路径 |
+| `src/skidpad_bringup/tools/generate_pcd_from_fsds.py` | PCD 输出目录 |
+| `src/icp_test_tools/config/test_params.yaml` | PCD 路径 |
+| `src/icp_test_tools/icp_test_tools/publisher_node.py` | PCD 路径默认值 |
+
+可将旧路径全部替换为新路径：
+```bash
+OLD=~/GSMART/CODE/skidpad_ws
+NEW=~/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws
+grep -rl "$OLD" src/ | xargs sed -i "s|$OLD|$NEW|g"
+```

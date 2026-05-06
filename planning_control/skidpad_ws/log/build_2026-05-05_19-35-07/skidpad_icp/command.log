@@ -1,4 +1,0 @@
-Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp -- -j32 -l32
-Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp -- -j32 -l32
-Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp
-Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp

@@ -93,7 +93,7 @@ def main():
 
     # 写入 PCD 文件 (ASCII 格式便于检查)
     output_dir = os.path.expanduser(
-        '~/GSMART/CODE/skidpad_ws/src/skidpad_icp/config')
+        '~/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_icp/config')
     os.makedirs(output_dir, exist_ok=True)
 
     # 保存为 ASCII PCD

@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/skidpad_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "skidpad_msgs__rs::@af48e8210227d4e5610c",
+	"name" : "skidpad_msgs__rs",
+	"paths" : 
+	{
+		"build" : "skidpad_msgs__rs",
+		"source" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/skidpad_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/skidpad_msgs__rs/CMakeFiles/skidpad_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/skidpad_msgs__rs/CMakeFiles/skidpad_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_generator_rs/skidpad_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

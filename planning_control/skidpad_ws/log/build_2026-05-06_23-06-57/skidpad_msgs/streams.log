@@ -1,0 +1,312 @@
+[0.009s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools:/opt/ros/humble /usr/bin/cmake /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.134s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.321s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.336s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.342s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.385s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.398s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.581s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.932s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.933s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.950s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.950s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.950s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.950s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.962s] -- Found PythonExtra: .so  
+[1.054s] -- Configuring done
+[1.083s] -- Generating done
+[1.090s] -- Build files have been written to: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs
+[1.096s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools:/opt/ros/humble /usr/bin/cmake /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs
+[1.098s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools:/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs -- -j32 -l32
+[1.123s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.130s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.130s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.135s] [  4%] Built target ament_cmake_python_symlink_skidpad_msgs
+[1.255s] running egg_info
+[1.256s] creating skidpad_msgs.egg-info
+[1.256s] writing skidpad_msgs.egg-info/PKG-INFO
+[1.256s] writing dependency_links to skidpad_msgs.egg-info/dependency_links.txt
+[1.256s] writing top-level names to skidpad_msgs.egg-info/top_level.txt
+[1.256s] writing manifest file 'skidpad_msgs.egg-info/SOURCES.txt'
+[1.257s] reading manifest file 'skidpad_msgs.egg-info/SOURCES.txt'
+[1.257s] writing manifest file 'skidpad_msgs.egg-info/SOURCES.txt'
+[1.273s] [  4%] Built target ament_cmake_python_build_skidpad_msgs_egg
+[1.356s] [  4%] Built target skidpad_msgs__rs
+[1.435s] [  4%] Built target skidpad_msgs__cpp
+[1.442s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.443s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.443s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.453s] [ 10%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_c.dir/rosidl_generator_c/skidpad_msgs/msg/detail/car_state__functions.c.o[0m
+[1.453s] [ 12%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_c.dir/rosidl_generator_c/skidpad_msgs/msg/detail/car_state_dt__functions.c.o[0m
+[1.453s] [ 14%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_c.dir/rosidl_generator_c/skidpad_msgs/msg/detail/control_command__functions.c.o[0m
+[1.454s] [ 15%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_c.dir/rosidl_generator_c/skidpad_msgs/msg/detail/trajectory_point__functions.c.o[0m
+[1.454s] [ 17%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_c.dir/rosidl_generator_c/skidpad_msgs/msg/detail/trajectory__functions.c.o[0m
+[1.490s] [ 18%] [32m[1mLinking C shared library libskidpad_msgs__rosidl_generator_c.so[0m
+[1.518s] [ 18%] Built target skidpad_msgs__rosidl_generator_c
+[1.525s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.525s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.525s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.689s] [ 25%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/skidpad_msgs/msg/car_state__type_support.cpp.o[0m
+[1.689s] [ 26%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/skidpad_msgs/msg/car_state_dt__type_support.cpp.o[0m
+[1.689s] [ 28%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/skidpad_msgs/msg/control_command__type_support.cpp.o[0m
+[1.689s] [ 29%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/skidpad_msgs/msg/trajectory__type_support.cpp.o[0m
+[1.690s] [ 31%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/skidpad_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[1.719s] [ 32%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/skidpad_msgs/msg/detail/car_state__type_support.cpp.o[0m
+[1.719s] [ 35%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/skidpad_msgs/msg/detail/control_command__type_support.cpp.o[0m
+[1.719s] [ 35%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/skidpad_msgs/msg/detail/trajectory__type_support.cpp.o[0m
+[1.720s] [ 37%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/skidpad_msgs/msg/detail/car_state_dt__type_support.cpp.o[0m
+[1.720s] [ 39%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/skidpad_msgs/msg/detail/trajectory_point__type_support.cpp.o[0m
+[1.731s] [ 42%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/control_command__type_support.cpp.o[0m
+[1.731s] [ 42%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state__type_support.cpp.o[0m
+[1.732s] [ 43%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state_dt__type_support.cpp.o[0m
+[1.732s] [ 45%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[1.733s] [ 46%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o[0m
+[1.826s] [ 50%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/skidpad_msgs/msg/detail/car_state_dt__type_support.c.o[0m
+[1.826s] [ 50%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/skidpad_msgs/msg/detail/control_command__type_support.c.o[0m
+[1.826s] [ 51%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/skidpad_msgs/msg/detail/car_state__type_support.c.o[0m
+[1.826s] [ 53%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/skidpad_msgs/msg/detail/trajectory__type_support.c.o[0m
+[1.827s] [ 54%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/skidpad_msgs/msg/detail/trajectory_point__type_support.c.o[0m
+[1.831s] [ 56%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/skidpad_msgs/msg/car_state__type_support.cpp.o[0m
+[1.832s] [ 57%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/skidpad_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[1.833s] [ 60%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/skidpad_msgs/msg/trajectory__type_support.cpp.o[0m
+[1.833s] [ 60%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/skidpad_msgs/msg/car_state_dt__type_support.cpp.o[0m
+[1.833s] [ 62%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/skidpad_msgs/msg/control_command__type_support.cpp.o[0m
+[1.865s] [ 64%] [32m[1mLinking C shared library libskidpad_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.866s] [ 65%] [32m[1mLinking CXX shared library libskidpad_msgs__rosidl_typesupport_c.so[0m
+[1.884s] [ 67%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/skidpad_msgs/msg/detail/car_state__type_support_c.cpp.o[0m
+[1.884s] [ 68%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/skidpad_msgs/msg/detail/trajectory__type_support_c.cpp.o[0m
+[1.884s] [ 70%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/skidpad_msgs/msg/detail/car_state_dt__type_support_c.cpp.o[0m
+[1.886s] [ 71%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/skidpad_msgs/msg/detail/trajectory_point__type_support_c.cpp.o[0m
+[1.886s] [ 73%] [32mBuilding CXX object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/skidpad_msgs/msg/detail/control_command__type_support_c.cpp.o[0m
+[1.896s] [ 73%] Built target skidpad_msgs__rosidl_typesupport_introspection_c
+[1.905s] [ 73%] Built target skidpad_msgs__rosidl_typesupport_c
+[1.921s] [ 75%] [32m[1mLinking CXX shared library libskidpad_msgs__rosidl_typesupport_cpp.so[0m
+[1.953s] [ 75%] Built target skidpad_msgs__rosidl_typesupport_cpp
+[2.006s] [ 76%] [32m[1mLinking CXX shared library libskidpad_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.016s] [ 78%] [32m[1mLinking CXX shared library libskidpad_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.055s] [ 78%] Built target skidpad_msgs__rosidl_typesupport_introspection_cpp
+[2.065s] [ 78%] Built target skidpad_msgs__rosidl_typesupport_fastrtps_cpp
+[2.096s] [ 79%] [32m[1mLinking CXX shared library libskidpad_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.144s] [ 79%] Built target skidpad_msgs__rosidl_typesupport_fastrtps_c
+[2.157s] [ 79%] Built target skidpad_msgs
+[2.169s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.654s] [ 81%] Built target skidpad_msgs__py
+[2.667s] [ 82%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_py.dir/rosidl_generator_py/skidpad_msgs/msg/_car_state_s.c.o[0m
+[2.667s] [ 84%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_py.dir/rosidl_generator_py/skidpad_msgs/msg/_car_state_dt_s.c.o[0m
+[2.667s] [ 87%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_py.dir/rosidl_generator_py/skidpad_msgs/msg/_trajectory_point_s.c.o[0m
+[2.667s] [ 87%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_py.dir/rosidl_generator_py/skidpad_msgs/msg/_trajectory_s.c.o[0m
+[2.668s] [ 89%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_generator_py.dir/rosidl_generator_py/skidpad_msgs/msg/_control_command_s.c.o[0m
+[2.742s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/skidpad_msgs/libskidpad_msgs__rosidl_generator_py.so[0m
+[2.771s] [ 90%] Built target skidpad_msgs__rosidl_generator_py
+[2.784s] [ 93%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/skidpad_msgs/_skidpad_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.784s] [ 93%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/skidpad_msgs/_skidpad_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.786s] [ 95%] [32mBuilding C object CMakeFiles/skidpad_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/skidpad_msgs/_skidpad_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.855s] [100%] [32m[1mLinking C shared library rosidl_generator_py/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.855s] [100%] [32m[1mLinking C shared library rosidl_generator_py/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.855s] [100%] [32m[1mLinking C shared library rosidl_generator_py/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.881s] [100%] Built target skidpad_msgs__rosidl_typesupport_introspection_c__pyext
+[2.881s] [100%] Built target skidpad_msgs__rosidl_typesupport_c__pyext
+[2.881s] [100%] Built target skidpad_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.891s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools:/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs -- -j32 -l32
+[2.897s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools:/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs
+[2.901s] -- Install configuration: ""
+[2.902s] -- Execute custom install script
+[2.902s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/ament_index/resource_index/rosidl_interfaces/skidpad_msgs
+[2.909s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/car_state.h
+[2.916s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/car_state_dt.h
+[2.923s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/control_command.h
+[2.928s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__functions.h
+[2.935s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__struct.h
+[2.941s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__type_support.h
+[2.947s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__functions.h
+[2.952s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__struct.h
+[2.958s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__type_support.h
+[2.964s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__functions.h
+[2.969s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__struct.h
+[2.975s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__type_support.h
+[2.980s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__functions.h
+[2.985s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__struct.h
+[2.991s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__type_support.h
+[2.997s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__functions.h
+[3.003s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__struct.h
+[3.008s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__type_support.h
+[3.014s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.019s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/trajectory.h
+[3.024s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/trajectory_point.h
+[3.030s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/library_path.sh
+[3.036s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/library_path.dsv
+[3.041s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_c.h
+[3.047s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__rosidl_typesupport_fastrtps_c.h
+[3.052s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_c.h
+[3.057s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[3.063s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h
+[3.069s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.074s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__rosidl_typesupport_introspection_c.h
+[3.080s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__rosidl_typesupport_introspection_c.h
+[3.085s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__rosidl_typesupport_introspection_c.h
+[3.091s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[3.096s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h
+[3.101s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.107s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/car_state.hpp
+[3.112s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/car_state_dt.hpp
+[3.117s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/control_command.hpp
+[3.122s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__builder.hpp
+[3.128s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__struct.hpp
+[3.133s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__traits.hpp
+[3.138s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__type_support.hpp
+[3.144s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__builder.hpp
+[3.149s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__struct.hpp
+[3.154s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__traits.hpp
+[3.160s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__type_support.hpp
+[3.165s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__builder.hpp
+[3.170s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__struct.hpp
+[3.175s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__traits.hpp
+[3.180s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__type_support.hpp
+[3.185s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__builder.hpp
+[3.190s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__struct.hpp
+[3.196s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__traits.hpp
+[3.201s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__type_support.hpp
+[3.206s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__builder.hpp
+[3.211s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__struct.hpp
+[3.216s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__traits.hpp
+[3.221s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__type_support.hpp
+[3.226s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.231s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/trajectory.hpp
+[3.236s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/trajectory_point.hpp
+[3.242s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.247s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__rosidl_typesupport_fastrtps_cpp.hpp
+[3.253s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.258s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[3.263s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.268s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.273s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state__rosidl_typesupport_introspection_cpp.hpp
+[3.278s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/car_state_dt__rosidl_typesupport_introspection_cpp.hpp
+[3.283s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/control_command__rosidl_typesupport_introspection_cpp.hpp
+[3.289s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/include/skidpad_msgs/skidpad_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[3.299s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/pythonpath.sh
+[3.304s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/pythonpath.dsv
+[3.309s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[3.314s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[3.321s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[3.327s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[3.333s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/__init__.py
+[3.339s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/_skidpad_msgs_s.ep.rosidl_typesupport_c.c
+[3.344s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/_skidpad_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.350s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/_skidpad_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.356s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/libskidpad_msgs__rosidl_generator_py.so
+[3.361s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/__init__.py
+[3.366s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_car_state.py
+[3.372s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_car_state_dt.py
+[3.377s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_car_state_dt_s.c
+[3.383s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_car_state_s.c
+[3.389s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_control_command.py
+[3.394s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_control_command_s.c
+[3.400s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_trajectory.py
+[3.405s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_trajectory_point.py
+[3.410s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_trajectory_point_s.c
+[3.415s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_trajectory_s.c
+[3.420s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.426s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.431s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.437s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.437s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.437s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/skidpad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.437s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/ament_index/resource_index/rust_packages/skidpad_msgs
+[3.443s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/rust/Cargo.toml
+[3.448s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/rust/build.rs
+[3.453s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/rust/src/lib.rs
+[3.459s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/rust/src/msg.rs
+[3.464s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/rust/src/msg/rmw.rs
+[3.469s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/CarState.idl
+[3.475s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/CarStateDt.idl
+[3.482s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/ControlCommand.idl
+[3.487s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/Trajectory.idl
+[3.493s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/TrajectoryPoint.idl
+[3.498s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/CarState.msg
+[3.503s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/CarStateDt.msg
+[3.508s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/ControlCommand.msg
+[3.513s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/Trajectory.msg
+[3.519s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/msg/TrajectoryPoint.msg
+[3.524s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/ament_index/resource_index/package_run_dependencies/skidpad_msgs
+[3.529s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/ament_index/resource_index/parent_prefix_path/skidpad_msgs
+[3.536s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/ament_prefix_path.sh
+[3.541s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/ament_prefix_path.dsv
+[3.547s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/path.sh
+[3.553s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/environment/path.dsv
+[3.559s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/local_setup.bash
+[3.564s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/local_setup.sh
+[3.569s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/local_setup.zsh
+[3.574s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/local_setup.dsv
+[3.580s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.dsv
+[3.585s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/ament_index/resource_index/packages/skidpad_msgs
+[3.590s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/rosidl_cmake-extras.cmake
+[3.595s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.600s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.605s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.610s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.615s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.620s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.625s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgsConfig.cmake
+[3.632s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgsConfig-version.cmake
+[3.638s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.xml
+[3.643s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_generator_c.so
+[3.644s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_generator_c.so" to ""
+[3.644s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_fastrtps_c.so
+[3.644s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.644s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_introspection_c.so
+[3.644s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.645s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_c.so
+[3.645s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_c.so" to ""
+[3.645s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.645s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.645s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_introspection_cpp.so
+[3.646s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.646s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_cpp.so
+[3.646s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_typesupport_cpp.so" to ""
+[3.668s] Listing '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/__init__.py'...
+[3.668s] Listing '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/__init__.py'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_car_state.py'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_car_state_dt.py'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_control_command.py'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_trajectory.py'...
+[3.668s] Compiling '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages/skidpad_msgs/msg/_trajectory_point.py'...
+[3.670s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_generator_py.so
+[3.671s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib/libskidpad_msgs__rosidl_generator_py.so" to ""
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_generator_cExport.cmake
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.671s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_cExport.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_generator_cppExport.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_cppExport.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/skidpad_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_generator_pyExport.cmake
+[3.672s] -- Installing: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/cmake/export_skidpad_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.674s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools:/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs

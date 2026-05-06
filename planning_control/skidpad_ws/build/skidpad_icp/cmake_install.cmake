@@ -1,8 +1,8 @@
-# Install script for directory: /home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_icp
+# Install script for directory: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_icp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp")
+  set(CMAKE_INSTALL_PREFIX "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_icp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_icp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_icp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

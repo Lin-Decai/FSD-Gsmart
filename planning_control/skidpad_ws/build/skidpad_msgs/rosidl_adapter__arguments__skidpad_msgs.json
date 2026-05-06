@@ -1,10 +1,10 @@
 {
   "package_name": "skidpad_msgs",
   "non_idl_tuples": [
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs:msg/CarState.msg",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs:msg/CarStateDt.msg",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs:msg/ControlCommand.msg",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs:msg/Trajectory.msg",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs:msg/TrajectoryPoint.msg"
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs:msg/CarState.msg",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs:msg/CarStateDt.msg",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs:msg/ControlCommand.msg",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs:msg/Trajectory.msg",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_msgs:msg/TrajectoryPoint.msg"
   ]
 }

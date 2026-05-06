@@ -1,0 +1,29 @@
+[0.436s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control': CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_bringup:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_icp PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/build --no-deps symlink_data
+[0.569s] running develop
+[0.641s] running egg_info
+[0.641s] creating skidpad_control.egg-info
+[0.641s] writing skidpad_control.egg-info/PKG-INFO
+[0.641s] writing dependency_links to skidpad_control.egg-info/dependency_links.txt
+[0.641s] writing entry points to skidpad_control.egg-info/entry_points.txt
+[0.641s] writing requirements to skidpad_control.egg-info/requires.txt
+[0.641s] writing top-level names to skidpad_control.egg-info/top_level.txt
+[0.641s] writing manifest file 'skidpad_control.egg-info/SOURCES.txt'
+[0.642s] reading manifest file 'skidpad_control.egg-info/SOURCES.txt'
+[0.643s] writing manifest file 'skidpad_control.egg-info/SOURCES.txt'
+[0.643s] running build_ext
+[0.644s] Creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages/skidpad-control.egg-link (link to .)
+[0.644s] Installing pure_pursuit_node script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/skidpad_control
+[0.644s] Installing skidpad_visualizer script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/skidpad_control
+[0.644s] 
+[0.644s] Installed /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control
+[0.644s] running symlink_data
+[0.644s] creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/ament_index
+[0.644s] creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/ament_index/resource_index
+[0.644s] creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/ament_index/resource_index/packages
+[0.644s] symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/resource/skidpad_control -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/ament_index/resource_index/packages
+[0.644s] symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/package.xml -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/skidpad_control
+[0.645s] creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/skidpad_control/launch
+[0.645s] symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/launch/pure_pursuit_launch.py -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/skidpad_control/launch
+[0.645s] creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/skidpad_control/config
+[0.645s] symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/config/pure_pursuit_params.yaml -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/share/skidpad_control/config
+[0.663s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control' returned '0': CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_bringup:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_icp PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control/build --no-deps symlink_data

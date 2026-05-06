@@ -1,8 +1,8 @@
-# Install script for directory: /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/skidpad_msgs__rs
+# Install script for directory: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/skidpad_msgs__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

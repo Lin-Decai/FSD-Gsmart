@@ -6,7 +6,7 @@ test_lidar_publisher:
     publish_rate: 10.0
     # 测试模式： "identity" 发布原始地图； "shifted" 发布旋转+平移后的地图
     mode: "identity"
-    pcd_path: "/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_icp/config/skidpad.pcd"
+    pcd_path: "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_icp/config/skidpad.pcd"
     # 若 mode=shifted，可指定如下变换（齐次坐标系，旋转和平移）
     start_length: 15.0
     lidar2imu: 1.87

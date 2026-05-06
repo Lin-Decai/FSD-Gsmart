@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating icp_test_tools.egg-info
+writing icp_test_tools.egg-info/PKG-INFO
+writing dependency_links to icp_test_tools.egg-info/dependency_links.txt
+writing entry points to icp_test_tools.egg-info/entry_points.txt
+writing requirements to icp_test_tools.egg-info/requires.txt
+writing top-level names to icp_test_tools.egg-info/top_level.txt
+writing manifest file 'icp_test_tools.egg-info/SOURCES.txt'
+reading manifest file 'icp_test_tools.egg-info/SOURCES.txt'
+writing manifest file 'icp_test_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages/icp-test-tools.egg-link (link to .)
+Installing printer_node script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/lib/icp_test_tools
+Installing publisher_node script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/lib/icp_test_tools
+
+Installed /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/icp_test_tools
+running symlink_data
+creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/ament_index
+creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/ament_index/resource_index
+creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/ament_index/resource_index/packages
+symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/icp_test_tools/resource/icp_test_tools -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/ament_index/resource_index/packages
+symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/icp_test_tools/package.xml -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/icp_test_tools
+creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/icp_test_tools/launch
+symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/icp_test_tools/launch/icp_test.launch.py -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/icp_test_tools/launch
+creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/icp_test_tools/config
+symbolically linking /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/icp_test_tools/config/test_params.yaml -> /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/icp_test_tools/share/icp_test_tools/config

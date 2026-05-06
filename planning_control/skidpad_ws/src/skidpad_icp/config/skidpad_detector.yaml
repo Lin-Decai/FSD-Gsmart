@@ -7,7 +7,7 @@ skidpad_detector_node:
 
     # Remember to replace {YOUR_WORKSPACE} with your real workspace, like "home/lyw/opensource_ws/ros/planning/skidpad_detector/config/skidpad.pcd"
     path:
-      skidpad_map: /home/limdegcai/GSMART/CODE/autonomous_system/planning_control/skidpad_ws/src/skidpad_icp/config/skidpad.pcd
+      skidpad_map: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_icp/config/skidpad.pcd
 
     length:
       start: 15.0       # 起点到赛道中心距离

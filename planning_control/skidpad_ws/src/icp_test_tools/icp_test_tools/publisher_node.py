@@ -22,7 +22,7 @@ class TestLidarPublisher(Node):
             ('topic', '/perception/lidar_cluster'),
             ('publish_rate', 10.0),
             ('mode', 'identity'),
-            ('pcd_path', '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_icp/config/skidpad.pcd'),
+            ('pcd_path', '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/src/skidpad_icp/config/skidpad.pcd'),
             ('start_length', 15.0),
             ('lidar2imu', 1.87),
             ('transform.roll', 0.0),

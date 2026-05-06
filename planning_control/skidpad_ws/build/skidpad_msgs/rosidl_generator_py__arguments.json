@@ -1,13 +1,13 @@
 {
   "package_name": "skidpad_msgs",
-  "output_dir": "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_generator_py/skidpad_msgs",
+  "output_dir": "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_generator_py/skidpad_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/CarState.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/CarStateDt.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/ControlCommand.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/Trajectory.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/TrajectoryPoint.idl"
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/CarState.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/CarStateDt.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/ControlCommand.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/Trajectory.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/TrajectoryPoint.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -89,11 +89,11 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/CarState.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/CarStateDt.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/ControlCommand.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/Trajectory.idl",
-    "/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/TrajectoryPoint.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/CarState.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/CarStateDt.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/ControlCommand.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/Trajectory.idl",
+    "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs/msg/TrajectoryPoint.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

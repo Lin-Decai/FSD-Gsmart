@@ -23,7 +23,7 @@
 
 ### 1. 编译工作空间
 ```bash
-cd ~/GSMART/CODE/skidpad_ws
+cd ~/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws
 colcon build --packages-select skidpad_msgs skidpad_icp icp_test_tools
 source install/setup.bash
 ```
