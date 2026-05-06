@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state__type_support.cpp.o"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state__type_support.cpp.o.d"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state_dt__type_support.cpp.o"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state_dt__type_support.cpp.o.d"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/control_command__type_support.cpp.o"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/control_command__type_support.cpp.o.d"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o.d"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o"
+  "CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o.d"
+  "libskidpad_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libskidpad_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/car_state_dt__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/car_state_dt__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/control_command__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/skidpad_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/skidpad_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

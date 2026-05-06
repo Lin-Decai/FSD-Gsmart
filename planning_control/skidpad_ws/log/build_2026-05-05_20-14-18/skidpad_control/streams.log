@@ -1,0 +1,18 @@
+[0.411s] Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/build --no-deps symlink_data
+[0.535s] running develop
+[0.606s] running egg_info
+[0.606s] writing skidpad_control.egg-info/PKG-INFO
+[0.606s] writing dependency_links to skidpad_control.egg-info/dependency_links.txt
+[0.606s] writing entry points to skidpad_control.egg-info/entry_points.txt
+[0.606s] writing requirements to skidpad_control.egg-info/requires.txt
+[0.606s] writing top-level names to skidpad_control.egg-info/top_level.txt
+[0.607s] reading manifest file 'skidpad_control.egg-info/SOURCES.txt'
+[0.607s] writing manifest file 'skidpad_control.egg-info/SOURCES.txt'
+[0.608s] running build_ext
+[0.608s] Creating /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages/skidpad-control.egg-link (link to .)
+[0.609s] Installing pure_pursuit_node script to /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/skidpad_control
+[0.609s] Installing skidpad_visualizer script to /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/skidpad_control
+[0.609s] 
+[0.609s] Installed /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control
+[0.609s] running symlink_data
+[0.625s] Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/build --no-deps symlink_data

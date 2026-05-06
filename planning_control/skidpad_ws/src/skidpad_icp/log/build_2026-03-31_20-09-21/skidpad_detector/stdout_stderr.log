@@ -1,0 +1,68 @@
+[35m[1mConsolidate compiler generated dependencies of target skidpad_detector_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    1 | #ifndef SKIDPAD_DETECTOR_HPP
+      | 
+In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8[m[K,
+                 from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:2[m[K:
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    1 | #ifndef SKIDPAD_DETECTOR_HPP
+      | 
+In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8[m[K,
+                 from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:1[m[K:
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    1 | #ifndef SKIDPAD_DETECTOR_HPP
+      | 
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:9:60:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kns_skidpad_detector::SkidpadDetector::SkidpadDetector(rclcpp::Node::SharedPtr)[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    9 | SkidpadDetector::SkidpadDetector(rclcpp::Node::SharedPtr nh[01;31m[K)[m[K : nh_(nh) {
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:16:66:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kstd_msgs::msg::Float64MultiArray ns_skidpad_detector::SkidpadDetector::getTransMatrix()[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   16 | std_msgs::msg::Float64MultiArray SkidpadDetector::getTransMatrix([01;31m[K)[m[K {
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:25:92:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid ns_skidpad_detector::SkidpadDetector::setclusterFiltered(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 | void SkidpadDetector::setclusterFiltered(const sensor_msgs::msg::PointCloud2::SharedPtr msg[01;31m[K)[m[K {
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:30:38:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid ns_skidpad_detector::SkidpadDetector::loadParameters()[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   30 | void SkidpadDetector::loadParameters([01;31m[K)[m[K {
+      |                                      [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:48:33:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid ns_skidpad_detector::SkidpadDetector::loadFiles()[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   48 | void SkidpadDetector::loadFiles([01;31m[K)[m[K {
+      |                                 [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:86:115:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ns_skidpad_detector::SkidpadDetector::ros2ToPcl(const SharedPtr&)[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   86 | pcl::PointCloud<pcl::PointXYZ>::Ptr SkidpadDetector::ros2ToPcl(const sensor_msgs::msg::PointCloud2::SharedPtr &msg[01;31m[K)[m[K {
+      |                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:92:36:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid ns_skidpad_detector::SkidpadDetector::runAlgorithm()[m[K’ is not in namespace enclosing ‘[01m[Kns_skidpad_detector::SkidpadDetector[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   92 | void SkidpadDetector::runAlgorithm([01;31m[K)[m[K {
+      |                                    [01;31m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:153:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  153 | }[01;31m[K [m[K// namespace ns_skidpad_detector
+      |  [01;31m[K^[m[K
+In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:19:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 | namespace ns_skidpad_detector [01;36m[K{[m[K
+      |                               [01;36m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:13:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   13 | }
+      |  [01;31m[K^[m[K
+In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8[m[K,
+                 from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:2[m[K:
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:19:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 | namespace ns_skidpad_detector [01;36m[K{[m[K
+      |                               [01;36m[K^[m[K
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:64:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   64 | }[01;31m[K [m[K// namespace ns_skidpad_detector
+      |  [01;31m[K^[m[K
+In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8[m[K,
+                 from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:1[m[K:
+[01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:19:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 | namespace ns_skidpad_detector [01;36m[K{[m[K
+      |                               [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:104：CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:76：CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:90：CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/skidpad_detector_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

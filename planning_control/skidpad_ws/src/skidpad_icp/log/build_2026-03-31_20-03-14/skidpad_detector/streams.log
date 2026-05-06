@@ -1,0 +1,321 @@
+[0.006s] Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/limdegcai/GSMART/CODE/result/skidpad_detector -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.079s] -- Detecting C compiler ABI info
+[0.123s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.127s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.278s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.335s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.363s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.367s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.372s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.421s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.423s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.486s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.506s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.541s] -- Looking for pthread.h
+[0.592s] -- Looking for pthread.h - found
+[0.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.642s] -- Found Threads: TRUE  
+[0.680s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.701s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.714s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.744s] -- Checking for module 'eigen3'
+[0.754s] --   Found eigen3, version 3.4.0
+[0.779s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.779s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.802s] -- Checking for module 'flann'
+[0.812s] --   Found flann, version 1.9.1
+[0.841s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.841s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.463s] -- Checking for module 'libusb-1.0'
+[1.472s] --   Found libusb-1.0, version 1.0.25
+[1.497s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.498s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.537s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.634s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.639s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.644s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.737s] -- Found Qhull version 8.0.2
+[1.828s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.915s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.916s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.916s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.917s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.917s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.918s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.918s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.918s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.919s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.919s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.920s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.920s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.920s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.921s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.921s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.922s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.923s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.923s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.924s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.924s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.925s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.925s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.925s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.926s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.926s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.950s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.951s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.951s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.010s] [33mCMake Warning (dev) at CMakeLists.txt:15 (find_package):
+[2.010s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.010s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.010s]   command to set the policy and suppress this warning.
+[2.010s] 
+[2.010s]   CMake variable PCL_ROOT is set to:
+[2.010s] 
+[2.010s]     /usr
+[2.010s] 
+[2.010s]   For compatibility, CMake is ignoring the variable.
+[2.011s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.011s] [0m
+[2.023s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.070s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.074s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.075s] -- Configured cppcheck include dirs: /home/limdegcai/GSMART/CODE/result/skidpad_detector/include
+[2.075s] -- Configured cppcheck exclude dirs and/or files: 
+[2.079s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.079s] -- Configured cpplint exclude dirs and/or files: 
+[2.080s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.081s] -- Added test 'lint_cmake' to check CMake code style
+[2.082s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.086s] -- Added test 'uncrustify' to check C / C++ code style
+[2.086s] -- Configured uncrustify additional arguments: 
+[2.087s] -- Added test 'xmllint' to check XML markup files
+[2.088s] -- Configuring done
+[2.268s] -- Generating done
+[2.282s] -- Build files have been written to: /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector
+[2.295s] Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/limdegcai/GSMART/CODE/result/skidpad_detector -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector
+[2.296s] Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32
+[2.344s] [ 75%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o[0m
+[2.344s] [ 75%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o[0m
+[2.344s] [ 75%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o[0m
+[5.742s] In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.742s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint32[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPoint_[m[K’?
+[5.742s]    43 |   std::vector<geometry_msgs::msg::[01;31m[KPoint32[m[K> skidpad_map_points_;
+[5.742s]       |                                   [01;31m[K^~~~~~~[m[K
+[5.742s]       |                                   [32m[KPoint_[m[K
+[5.742s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.742s]    43 |   std::vector<geometry_msgs::msg::Point32[01;31m[K>[m[K skidpad_map_points_;
+[5.743s]       |                                          [01;31m[K^[m[K
+[5.743s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.745s] In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8[m[K,
+[5.745s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:2[m[K:
+[5.745s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint32[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPoint_[m[K’?
+[5.745s]    43 |   std::vector<geometry_msgs::msg::[01;31m[KPoint32[m[K> skidpad_map_points_;
+[5.745s]       |                                   [01;31m[K^~~~~~~[m[K
+[5.745s]       |                                   [32m[KPoint_[m[K
+[5.745s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.745s]    43 |   std::vector<geometry_msgs::msg::Point32[01;31m[K>[m[K skidpad_map_points_;
+[5.745s]       |                                          [01;31m[K^[m[K
+[5.745s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.751s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:[m[K In member function ‘[01m[Kvoid ns_skidpad_detector::SkidpadDetector::loadFiles()[m[K’:
+[5.751s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:59:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint32[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPoint_[m[K’?
+[5.751s]    59 |     geometry_msgs::msg::[01;31m[KPoint32[m[K tmp;
+[5.751s]       |                         [01;31m[K^~~~~~~[m[K
+[5.751s]       |                         [32m[KPoint_[m[K
+[5.752s] In file included from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8[m[K,
+[5.752s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:1[m[K:
+[5.752s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint32[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPoint_[m[K’?
+[5.752s]    43 |   std::vector<geometry_msgs::msg::[01;31m[KPoint32[m[K> skidpad_map_points_;
+[5.752s]       |                                   [01;31m[K^~~~~~~[m[K
+[5.752s]       |                                   [32m[KPoint_[m[K
+[5.752s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.752s]    43 |   std::vector<geometry_msgs::msg::Point32[01;31m[K>[m[K skidpad_map_points_;
+[5.752s]       |                                          [01;31m[K^[m[K
+[5.752s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:43:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.756s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[5.756s]    60 |     [01;31m[Ktmp[m[K.x = point.y + start_length_ + lidar2imu_;
+[5.756s]       |     [01;31m[K^~~[m[K
+[5.756s]       |     [32m[Ktm[m[K
+[5.756s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:63:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((ns_skidpad_detector::SkidpadDetector*)this)->ns_skidpad_detector::SkidpadDetector::skidpad_map_points_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.756s]    63 |     skidpad_map_points_.[01;31m[Kpush_back[m[K(tmp);
+[5.756s]       |                         [01;31m[K^~~~~~~~~[m[K
+[5.761s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:[m[K In member function ‘[01m[Kvoid ns_skidpad_detector::SkidpadDetector::runAlgorithm()[m[K’:
+[5.761s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:103:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+[5.761s]   103 |   for (const auto& map_pt : [01;31m[Kskidpad_map_points_[m[K) {
+[5.761s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.763s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:103:29:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.764s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[5.764s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[5.764s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[5.764s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[5.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[5.764s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:4[m[K,
+[5.764s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.764s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+[5.764s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[5.764s]       |                                     [01;36m[K^~~~~[m[K
+[5.764s] In file included from [01m[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21[m[K,
+[5.764s]                  from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:31[m[K,
+[5.764s]                  from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+[5.764s]                  from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+[5.764s]                  from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+[5.764s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43[m[K,
+[5.764s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[5.764s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[5.764s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:42[m[K,
+[5.765s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.765s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.765s] [01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:22:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::begin[m[K’
+[5.765s]    22 | template< typename Sequence > struct [01;36m[Kbegin[m[K;
+[5.765s]       |                                      [01;36m[K^~~~~[m[K
+[5.765s] In file included from [01m[K/usr/include/boost/foreach.hpp:81[m[K,
+[5.765s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[5.765s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/file_io.h:40[m[K,
+[5.765s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:45[m[K,
+[5.765s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.765s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.765s] [01m[K/usr/include/boost/range/begin.hpp:110:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::begin[m[K’
+[5.765s]   110 | inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type [01;36m[Kbegin[m[K( const T& r )
+[5.765s]       |                                                             [01;36m[K^~~~~[m[K
+[5.765s] In file included from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[5.765s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/file_io.h:40[m[K,
+[5.765s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:45[m[K,
+[5.765s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.765s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.765s] [01m[K/usr/include/boost/foreach.hpp:696:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::begin[m[K’
+[5.765s]   696 | [01;36m[Kbegin[m[K(auto_any_t col, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[5.765s]       | [01;36m[K^~~~~[m[K
+[5.765s] In file included from [01m[K/usr/include/boost/fusion/iterator/segmented_iterator.hpp:13[m[K,
+[5.765s]                  from [01m[K/usr/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:12[m[K,
+[5.765s]                  from [01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:18[m[K,
+[5.765s]                  from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12[m[K,
+[5.765s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+[5.765s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[5.765s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+[5.766s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:11[m[K,
+[5.766s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.766s] [01m[K/usr/include/boost/fusion/sequence/intrinsic/begin.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::begin[m[K’
+[5.766s]    92 |     [01;36m[Kbegin[m[K(Sequence const& seq)
+[5.766s]       |     [01;36m[K^~~~~[m[K
+[5.766s] In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16[m[K,
+[5.766s]                  from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+[5.766s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+[5.766s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+[5.766s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+[5.766s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:11[m[K,
+[5.766s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.767s] [01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:62:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::begin[m[K’
+[5.767s]    62 |         struct [01;36m[Kbegin[m[K;
+[5.767s]       |                [01;36m[K^~~~~[m[K
+[5.767s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:103:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+[5.767s]   103 |   for (const auto& map_pt : [01;31m[Kskidpad_map_points_[m[K) {
+[5.767s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.767s] [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:103:29:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.767s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[5.767s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[5.767s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[5.767s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[5.767s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[5.767s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:4[m[K,
+[5.767s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.767s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+[5.767s]   110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[5.767s]       |                                     [01;36m[K^~~[m[K
+[5.767s] In file included from [01m[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21[m[K,
+[5.767s]                  from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:31[m[K,
+[5.767s]                  from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+[5.767s]                  from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+[5.767s]                  from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:42[m[K,
+[5.767s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.767s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.767s] [01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:23:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::end[m[K’
+[5.767s]    23 | template< typename Sequence > struct [01;36m[Kend[m[K;
+[5.767s]       |                                      [01;36m[K^~~[m[K
+[5.767s] In file included from [01m[K/usr/include/boost/foreach.hpp:80[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/file_io.h:40[m[K,
+[5.767s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:45[m[K,
+[5.767s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.767s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.767s] [01m[K/usr/include/boost/range/end.hpp:104:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::end[m[K’
+[5.768s]   104 | inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type [01;36m[Kend[m[K( const T& r )
+[5.768s]       |                                                             [01;36m[K^~~[m[K
+[5.768s] In file included from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/file_io.h:40[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:45[m[K,
+[5.768s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.768s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.768s] [01m[K/usr/include/boost/foreach.hpp:736:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::end[m[K’
+[5.768s]   736 | [01;36m[Kend[m[K(auto_any_t, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[5.768s]       | [01;36m[K^~~[m[K
+[5.768s] In file included from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12[m[K,
+[5.768s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+[5.768s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+[5.768s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:11[m[K,
+[5.768s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.768s] [01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::end[m[K’
+[5.768s]    92 |     [01;36m[Kend[m[K(Sequence const& seq)
+[5.768s]       |     [01;36m[K^~~[m[K
+[5.768s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:265[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:42[m[K,
+[5.768s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:10[m[K,
+[5.768s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.768s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:181:40:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::placeholders::end[m[K’
+[5.768s]   181 |   EIGEN_DEPRECATED static const end_t  [01;36m[Kend[m[K  = Eigen::lastp1; // PLEASE use Eigen::lastp1 instead of Eigen::placeholders::end
+[5.768s]       |                                        [01;36m[K^~~[m[K
+[5.768s] In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16[m[K,
+[5.768s]                  from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+[5.768s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+[5.768s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[5.768s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[5.769s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[5.769s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/transformation_estimation.h:43[m[K,
+[5.769s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/registration.h:46[m[K,
+[5.769s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:46[m[K,
+[5.769s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:11[m[K,
+[5.769s]                  from [01m[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1[m[K:
+[5.769s] [01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::end[m[K’
+[5.769s]    68 |         struct [01;36m[Kend[m[K;
+[5.769s]       |                [01;36m[K^~~[m[K
+[6.438s] gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:104：CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o] 错误 1
+[6.438s] gmake[2]: *** 正在等待未完成的任务....
+[7.809s] gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:76：CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o] 错误 1
+[8.270s] gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:90：CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o] 错误 1
+[8.270s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/skidpad_detector_node.dir/all] 错误 2
+[8.271s] gmake: *** [Makefile:146：all] 错误 2
+[8.273s] Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32

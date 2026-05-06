@@ -1,0 +1,4 @@
+[console_scripts]
+pure_pursuit_node = skidpad_control.node:main
+skidpad_visualizer = skidpad_control.visualize:main
+

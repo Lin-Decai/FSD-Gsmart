@@ -1,0 +1,43 @@
+pure_pursuit_controller:
+  ros__parameters:
+    # ---------- 运行模式 ----------
+    mode: "simulation"           # simulation 或 real_vehicle
+
+    # ---------- 话题配置 ----------
+    ref_path_topic: "/planning/ref_path"
+    car_state_topic: "/estimation/slam/state"
+    go_cmd_topic: "/go_cmd"
+    control_command_topic: "/control_command"
+
+    # ---------- 车辆物理参数 ----------
+    wheel_base: 2.2
+    vehicle_mass: 300.0
+    wheel_radius: 0.228
+    air_density: 1.225
+    frontal_area: 1.4
+    drag_coefficient: 0.7
+    rolling_resistance_coefficient: 0.015
+    gravity: 9.81
+    drivetrain_efficiency: 0.85
+    static_friction_coefficient: 0.0
+
+    # ---------- 控制参数 ----------
+    target_speed: 9.5             # 期望速度 (m/s)
+    dt: 0.05                      # 控制周期 (s)
+    max_steering_angle: 0.436     # 最大前轮转角 (rad, ~25°)
+    max_acceleration: 4.0         # 最大加速度
+    max_deceleration: -3.0        # 最大减速度 (m/s²)
+    min_driving_torque: 32.5
+
+    # 预瞄距离 Ld = k*v + c
+    lookahead_k: 0.5    # 速度系数
+    lookahead_c: 1.0    # 基础距离 (m)
+
+    # 纵向 PID
+    kp: 0.8
+    ki: 0.15
+    kd: 0.2
+
+    # 终点减速
+    speed_change_threshold: 10.0  # 距离终点小于该值(米)开始线性减速
+    new_target_speed: 2.0         # 减速后目标速度 (m/s)

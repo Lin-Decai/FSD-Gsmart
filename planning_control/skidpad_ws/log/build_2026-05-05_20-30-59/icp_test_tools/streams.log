@@ -1,0 +1,18 @@
+[0.410s] Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools': PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/build --no-deps symlink_data
+[0.529s] running develop
+[0.595s] running egg_info
+[0.595s] writing icp_test_tools.egg-info/PKG-INFO
+[0.595s] writing dependency_links to icp_test_tools.egg-info/dependency_links.txt
+[0.595s] writing entry points to icp_test_tools.egg-info/entry_points.txt
+[0.595s] writing requirements to icp_test_tools.egg-info/requires.txt
+[0.595s] writing top-level names to icp_test_tools.egg-info/top_level.txt
+[0.596s] reading manifest file 'icp_test_tools.egg-info/SOURCES.txt'
+[0.597s] writing manifest file 'icp_test_tools.egg-info/SOURCES.txt'
+[0.598s] running build_ext
+[0.598s] Creating /home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages/icp-test-tools.egg-link (link to .)
+[0.598s] Installing printer_node script to /home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/icp_test_tools
+[0.598s] Installing publisher_node script to /home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/icp_test_tools
+[0.598s] 
+[0.598s] Installed /home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools
+[0.598s] running symlink_data
+[0.613s] Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools' returned '0': PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/build --no-deps symlink_data

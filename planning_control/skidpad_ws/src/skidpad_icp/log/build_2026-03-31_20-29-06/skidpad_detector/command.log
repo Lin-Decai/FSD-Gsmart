@@ -1,0 +1,4 @@
+Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32
+Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32
+Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector
+Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector

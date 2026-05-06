@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/pure_pursuit_params.yaml
+launch/pure_pursuit_launch.py
+resource/skidpad_control
+skidpad_control/__init__.py
+skidpad_control/controller.py
+skidpad_control/node.py
+skidpad_control/visualize.py
+skidpad_control.egg-info/PKG-INFO
+skidpad_control.egg-info/SOURCES.txt
+skidpad_control.egg-info/dependency_links.txt
+skidpad_control.egg-info/entry_points.txt
+skidpad_control.egg-info/requires.txt
+skidpad_control.egg-info/top_level.txt
+skidpad_control.egg-info/zip-safe

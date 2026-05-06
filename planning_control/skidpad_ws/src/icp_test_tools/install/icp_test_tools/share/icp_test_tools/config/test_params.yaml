@@ -1,0 +1,16 @@
+test_lidar_publisher:
+  ros__parameters:
+    # 发布的话题名
+    topic: /perception/lidar_cluster
+    # 发布频率（Hz）
+    publish_rate: 10.0
+    # 测试模式： "identity" 发布原始地图； "shifted" 发布旋转+平移后的地图
+    mode: "identity"
+    # 若 mode=shifted，可指定如下变换（齐次坐标系，旋转和平移）
+    transform:
+      roll: 0.0    # 绕 x 轴旋转（弧度）
+      pitch: 0.0
+      yaw: 0.5236  # 约30度
+      translation_x: 2.0
+      translation_y: -1.5
+      translation_z: 0.0

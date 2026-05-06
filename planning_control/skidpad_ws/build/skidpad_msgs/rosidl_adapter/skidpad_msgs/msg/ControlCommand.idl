@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from skidpad_msgs/msg/ControlCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float32.idl"
+#include "std_msgs/msg/Header.idl"
+
+module skidpad_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "控制命令")
+    struct ControlCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "油门值，范围[-1, 1]，正为加速，负为制动")
+      std_msgs::msg::Float32 throttle;
+
+      @verbatim (language="comment", text=
+        "转向角，范围[-1, 1]，左负右正")
+      std_msgs::msg::Float32 steering_angle;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target skidpad_detector_node[0m
+[0.106s] [ 25%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o[0m
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o[0m
+[0.108s] [ 75%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o[0m
+[7.440s] [100%] [32m[1mLinking CXX executable skidpad_detector_node[0m
+[10.809s] [100%] Built target skidpad_detector_node
+[10.816s] Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32
+[10.822s] Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector
+[10.826s] -- Install configuration: ""
+[10.826s] -- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/lib/skidpad_detector/skidpad_detector_node
+[10.831s] -- Set runtime path of "/home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/lib/skidpad_detector/skidpad_detector_node" to ""
+[10.831s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/launch
+[10.831s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/launch/skidpad_detector.launch.py
+[10.831s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config
+[10.831s] -- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/skidpad_detector.yaml
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/skidpad.pcd
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/path_x.txt
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/path_y.txt
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/package_run_dependencies/skidpad_detector
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/parent_prefix_path/skidpad_detector
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/ament_prefix_path.sh
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/ament_prefix_path.dsv
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/path.sh
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/path.dsv
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.bash
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.sh
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.zsh
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.dsv
+[10.832s] -- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/package.dsv
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/packages/skidpad_detector
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/cmake/skidpad_detectorConfig.cmake
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/cmake/skidpad_detectorConfig-version.cmake
+[10.832s] -- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/package.xml
+[10.833s] Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector

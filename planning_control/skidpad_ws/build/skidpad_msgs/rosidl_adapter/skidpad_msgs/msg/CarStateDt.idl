@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from skidpad_msgs/msg/CarStateDt.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+#include "std_msgs/msg/Header.idl"
+
+module skidpad_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "车辆状态的时间导数")
+    struct CarStateDt {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "速度 (x, y, theta)")
+      geometry_msgs::msg::Pose2D car_state_dt;
+
+      @verbatim (language="comment", text=
+        "加速度 (x, y, theta)")
+      geometry_msgs::msg::Pose2D car_state_a;
+    };
+  };
+};

@@ -1,0 +1,500 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cc0ecdf7490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cc0ecfa4b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cc0ecfa4b50>>)
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.248s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/limdegcai/GSMART/CODE/skidpad_ws'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/fsds_bridge) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fsds_bridge' with type 'ros.ament_python' and name 'fsds_bridge'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_test_tools) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icp_test_tools' with type 'ros.ament_python' and name 'icp_test_tools'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_bringup) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skidpad_bringup' with type 'ros.ament_cmake' and name 'skidpad_bringup'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_control) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skidpad_control' with type 'ros.ament_python' and name 'skidpad_control'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_icp) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skidpad_icp' with type 'ros.ament_cmake' and name 'skidpad_icp'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_msgs) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skidpad_msgs' with type 'ros.ament_cmake' and name 'skidpad_msgs'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/skidpad_planner) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skidpad_planner' with type 'ros.ament_cmake' and name 'skidpad_planner'
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_test_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'icp_test_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_icp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'skidpad_icp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_icp', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'skidpad_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'skidpad_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'fsds_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'fsds_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/fsds_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'skidpad_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_control', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'skidpad_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_planner', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'skidpad_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'skidpad_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup', 'merge_install': False, 'path': '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.308s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_msgs'
+[0.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_icp' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_icp'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools' with build type 'ament_python'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_test_tools', 'ament_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/hook/ament_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/hook/ament_prefix_path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/hook/ament_prefix_path.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs -- -j32 -l32
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp -- -j32 -l32
+[0.444s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp -- -j32 -l32
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp
+[0.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_icp)
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_icp
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp' for CMake module files
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_icp', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/hook/cmake_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/lib'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/bin'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/lib/pkgconfig/skidpad_icp.pc'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/lib/python3.10/site-packages'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/bin'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.bash'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.zsh'
+[0.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/colcon-core/packages/skidpad_icp)
+[0.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_icp)
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp' for CMake module files
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp' for CMake config files
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_icp', 'cmake_prefix_path')
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/hook/cmake_prefix_path.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/hook/cmake_prefix_path.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/hook/cmake_prefix_path.sh'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/lib'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/bin'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/lib/pkgconfig/skidpad_icp.pc'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/lib/python3.10/site-packages'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/bin'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.bash'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/skidpad_icp/package.zsh'
+[0.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp/share/colcon-core/packages/skidpad_icp)
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs -- -j32 -l32
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs
+[0.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_msgs)
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs' for CMake module files
+[0.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs' for CMake config files
+[0.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_msgs', 'cmake_prefix_path')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/cmake_prefix_path.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib'
+[0.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_msgs', 'ld_library_path_lib')
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/ld_library_path_lib.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/ld_library_path_lib.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/ld_library_path_lib.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/bin'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib/pkgconfig/skidpad_msgs.pc'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib/python3.10/site-packages'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/bin'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.bash'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.zsh'
+[0.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/colcon-core/packages/skidpad_msgs)
+[0.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_msgs)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs' for CMake module files
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_msgs', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/cmake_prefix_path.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/cmake_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib'
+[0.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_msgs', 'ld_library_path_lib')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/ld_library_path_lib.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/ld_library_path_lib.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/hook/ld_library_path_lib.sh'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/bin'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib/pkgconfig/skidpad_msgs.pc'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib/python3.10/site-packages'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.bash'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/skidpad_msgs/package.zsh'
+[0.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/share/colcon-core/packages/skidpad_msgs)
+[0.601s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_control' with build type 'ament_python'
+[0.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_control', 'ament_prefix_path')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/hook/ament_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/hook/ament_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/hook/ament_prefix_path.sh'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_planner' with build type 'ament_cmake'
+[0.604s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_planner'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.606s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/fsds_bridge' with build type 'ament_python'
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsds_bridge', 'ament_prefix_path')
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/hook/ament_prefix_path.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/hook/ament_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/hook/ament_prefix_path.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_control'
+[0.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner -- -j32 -l32
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools': PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/build --no-deps symlink_data
+[0.850s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/fsds_bridge'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_test_tools', 'pythonpath_develop')
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/share/icp_test_tools/hook/pythonpath_develop.ps1'
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools' returned '0': PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/build --no-deps symlink_data
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/share/icp_test_tools/hook/pythonpath_develop.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/build/icp_test_tools/share/icp_test_tools/hook/pythonpath_develop.sh'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools' for CMake config files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/bin'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/pkgconfig/icp_test_tools.pc'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/lib/python3.10/site-packages'
+[0.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_test_tools', 'pythonpath')
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/hook/pythonpath.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/hook/pythonpath.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/hook/pythonpath.sh'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/bin'
+[0.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icp_test_tools)
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/package.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/package.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/icp_test_tools/package.zsh'
+[0.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/icp_test_tools/share/colcon-core/packages/icp_test_tools)
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/build --no-deps symlink_data
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/build --no-deps symlink_data
+[1.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_control', 'pythonpath_develop')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/share/skidpad_control/hook/pythonpath_develop.ps1'
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/build --no-deps symlink_data
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/share/skidpad_control/hook/pythonpath_develop.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control/share/skidpad_control/hook/pythonpath_develop.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control' for CMake module files
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control' for CMake config files
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/bin'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/pkgconfig/skidpad_control.pc'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages'
+[1.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_control', 'pythonpath')
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/hook/pythonpath.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/hook/pythonpath.dsv'
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/hook/pythonpath.sh'
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/bin'
+[1.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_control)
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/package.ps1'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/package.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/package.sh'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/package.bash'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/skidpad_control/package.zsh'
+[1.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/share/colcon-core/packages/skidpad_control)
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsds_bridge', 'pythonpath_develop')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/share/fsds_bridge/hook/pythonpath_develop.ps1'
+[1.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/build --no-deps symlink_data
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/share/fsds_bridge/hook/pythonpath_develop.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge/share/fsds_bridge/hook/pythonpath_develop.sh'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge' for CMake config files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib/pkgconfig/fsds_bridge.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages'
+[1.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsds_bridge', 'pythonpath')
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/hook/pythonpath.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/hook/pythonpath.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/hook/pythonpath.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fsds_bridge)
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/package.sh'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/package.bash'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/fsds_bridge/package.zsh'
+[1.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/share/colcon-core/packages/fsds_bridge)
+[3.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner -- -j32 -l32
+[3.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner
+[3.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_planner)
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner' for CMake module files
+[3.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner' for CMake config files
+[3.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_planner', 'cmake_prefix_path')
+[3.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/hook/cmake_prefix_path.ps1'
+[3.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/hook/cmake_prefix_path.dsv'
+[3.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/hook/cmake_prefix_path.sh'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/bin'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib/pkgconfig/skidpad_planner.pc'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib/python3.10/site-packages'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/bin'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.ps1'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.dsv'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.sh'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.bash'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.zsh'
+[3.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/colcon-core/packages/skidpad_planner)
+[3.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_planner)
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner' for CMake module files
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner' for CMake config files
+[3.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_planner', 'cmake_prefix_path')
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/hook/cmake_prefix_path.ps1'
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/hook/cmake_prefix_path.dsv'
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/hook/cmake_prefix_path.sh'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/bin'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib/pkgconfig/skidpad_planner.pc'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib/python3.10/site-packages'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/bin'
+[3.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.ps1'
+[3.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.dsv'
+[3.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.sh'
+[3.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.bash'
+[3.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.zsh'
+[3.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/colcon-core/packages/skidpad_planner)
+[3.906s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_bringup' with build type 'ament_cmake'
+[3.906s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/skidpad_bringup'
+[3.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup -- -j32 -l32
+[3.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup -- -j32 -l32
+[3.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup
+[3.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_bringup)
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_icp:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_control:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_bringup
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup' for CMake module files
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup' for CMake config files
+[3.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_bringup', 'cmake_prefix_path')
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/hook/cmake_prefix_path.ps1'
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/hook/cmake_prefix_path.dsv'
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/hook/cmake_prefix_path.sh'
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/bin'
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/lib/pkgconfig/skidpad_bringup.pc'
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/lib/python3.10/site-packages'
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/bin'
+[3.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.dsv'
+[3.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.sh'
+[3.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.bash'
+[3.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.zsh'
+[3.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/colcon-core/packages/skidpad_bringup)
+[3.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skidpad_bringup)
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup' for CMake module files
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup' for CMake config files
+[3.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('skidpad_bringup', 'cmake_prefix_path')
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/hook/cmake_prefix_path.ps1'
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/hook/cmake_prefix_path.dsv'
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/hook/cmake_prefix_path.sh'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/bin'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/lib/pkgconfig/skidpad_bringup.pc'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/lib/python3.10/site-packages'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/bin'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.ps1'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.dsv'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.sh'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.bash'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/skidpad_bringup/package.zsh'
+[3.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_bringup/share/colcon-core/packages/skidpad_bringup)
+[3.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.961s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.964s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.965s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.974s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/local_setup.ps1'
+[3.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/limdegcai/GSMART/CODE/skidpad_ws/install/_local_setup_util_ps1.py'
+[3.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/setup.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/local_setup.sh'
+[3.977s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/limdegcai/GSMART/CODE/skidpad_ws/install/_local_setup_util_sh.py'
+[3.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/setup.sh'
+[3.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/local_setup.bash'
+[3.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/setup.bash'
+[3.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/local_setup.zsh'
+[3.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/limdegcai/GSMART/CODE/skidpad_ws/install/setup.zsh'

@@ -1,0 +1,5 @@
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/CarState.idl
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/CarStateDt.idl
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/ControlCommand.idl
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/Trajectory.idl
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_adapter/skidpad_msgs:msg/TrajectoryPoint.idl

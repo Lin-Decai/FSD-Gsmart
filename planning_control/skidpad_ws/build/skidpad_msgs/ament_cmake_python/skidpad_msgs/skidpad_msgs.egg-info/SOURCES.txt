@@ -1,0 +1,12 @@
+setup.py
+skidpad_msgs/__init__.py
+skidpad_msgs.egg-info/PKG-INFO
+skidpad_msgs.egg-info/SOURCES.txt
+skidpad_msgs.egg-info/dependency_links.txt
+skidpad_msgs.egg-info/top_level.txt
+skidpad_msgs/msg/__init__.py
+skidpad_msgs/msg/_car_state.py
+skidpad_msgs/msg/_car_state_dt.py
+skidpad_msgs/msg/_control_command.py
+skidpad_msgs/msg/_trajectory.py
+skidpad_msgs/msg/_trajectory_point.py

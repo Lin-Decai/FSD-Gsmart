@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from skidpad_msgs/msg/TrajectoryPoint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Float64.idl"
+
+module skidpad_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "单个轨迹点信息（车体坐标系）")
+    struct TrajectoryPoint {
+      @verbatim (language="comment", text=
+        "坐标 (x 向前, y 向左)")
+      geometry_msgs::msg::Point pts;
+
+      @verbatim (language="comment", text=
+        "期望航向角")
+      std_msgs::msg::Float64 yaw;
+
+      @verbatim (language="comment", text=
+        "路径曲率")
+      std_msgs::msg::Float64 curvature;
+
+      @verbatim (language="comment", text=
+        "期望速度")
+      std_msgs::msg::Float64 velocity;
+
+      @verbatim (language="comment", text=
+        "横摆角速度（预留）")
+      std_msgs::msg::Float64 r;
+
+      @verbatim (language="comment", text=
+        "期望加速度（预留）")
+      std_msgs::msg::Float64 acc;
+    };
+  };
+};

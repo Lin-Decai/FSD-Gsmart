@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing fsds_bridge.egg-info/PKG-INFO
+writing dependency_links to fsds_bridge.egg-info/dependency_links.txt
+writing entry points to fsds_bridge.egg-info/entry_points.txt
+writing requirements to fsds_bridge.egg-info/requires.txt
+writing top-level names to fsds_bridge.egg-info/top_level.txt
+reading manifest file 'fsds_bridge.egg-info/SOURCES.txt'
+writing manifest file 'fsds_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages/fsds-bridge.egg-link (link to .)
+Installing fsds_bridge_node script to /home/limdegcai/GSMART/CODE/skidpad_ws/install/fsds_bridge/lib/fsds_bridge
+
+Installed /home/limdegcai/GSMART/CODE/skidpad_ws/build/fsds_bridge
+running symlink_data

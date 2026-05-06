@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target skidpad_detector_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable skidpad_detector_node[0m
+[100%] Built target skidpad_detector_node
+-- Install configuration: ""
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/lib/skidpad_detector/skidpad_detector_node
+-- Set runtime path of "/home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/lib/skidpad_detector/skidpad_detector_node" to ""
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/launch
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/launch/skidpad_detector.launch.py
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/skidpad_detector.yaml
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/skidpad.pcd
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/path_x.txt
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/path_y.txt
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/package_run_dependencies/skidpad_detector
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/parent_prefix_path/skidpad_detector
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/ament_prefix_path.sh
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/path.sh
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/path.dsv
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.bash
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.sh
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.zsh
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.dsv
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/package.dsv
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/packages/skidpad_detector
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/cmake/skidpad_detectorConfig.cmake
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/cmake/skidpad_detectorConfig-version.cmake
+-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/package.xml

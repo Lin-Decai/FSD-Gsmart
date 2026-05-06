@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000517] (skidpad_detector) JobQueued: {'identifier': 'skidpad_detector', 'dependencies': OrderedDict()}
+[0.000658] (skidpad_detector) JobStarted: {'identifier': 'skidpad_detector'}
+[0.005819] (skidpad_detector) JobProgress: {'identifier': 'skidpad_detector', 'progress': 'cmake'}
+[0.006558] (skidpad_detector) JobProgress: {'identifier': 'skidpad_detector', 'progress': 'build'}
+[0.007155] (skidpad_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector', '--', '-j32', '-l32'], 'cwd': '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'limdegcai'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/limdegcai'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2322'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=916b99fbba7666916e3d626869cc1b87'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'limdegcai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'limdegcai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/limdegcai-Legion-R9000P-ADR10:@/tmp/.ICE-unix/2322,unix/limdegcai-Legion-R9000P-ADR10:/tmp/.ICE-unix/2322'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50a2d345_fe56_49df_86f0_b0f95906858d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c490cd65ca.sock'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=916b99fbba7666916e3d626869cc1b87'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032351] (skidpad_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099748] (-) TimerEvent: {}
+[0.124523] (skidpad_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.144963] (skidpad_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.146603] (skidpad_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.150702] (skidpad_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.157283] (skidpad_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.166665] (skidpad_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.188723] (skidpad_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.189616] (skidpad_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199828] (-) TimerEvent: {}
+[0.272595] (skidpad_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299952] (-) TimerEvent: {}
+[0.306882] (skidpad_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.330244] (skidpad_detector) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.341582] (skidpad_detector) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[0.371237] (skidpad_detector) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.394671] (skidpad_detector) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.400046] (-) TimerEvent: {}
+[0.500280] (-) TimerEvent: {}
+[0.580748] (skidpad_detector) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.585111] (skidpad_detector) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.600375] (-) TimerEvent: {}
+[0.680758] (skidpad_detector) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.685202] (skidpad_detector) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.688935] (skidpad_detector) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.700473] (-) TimerEvent: {}
+[0.773959] (skidpad_detector) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.800588] (-) TimerEvent: {}
+[0.863508] (skidpad_detector) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.900702] (-) TimerEvent: {}
+[0.965257] (skidpad_detector) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.965908] (skidpad_detector) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000819] (-) TimerEvent: {}
+[1.007264] (skidpad_detector) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:16 (find_package):\n'}
+[1.007383] (skidpad_detector) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[1.007426] (skidpad_detector) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[1.007457] (skidpad_detector) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.007488] (skidpad_detector) StderrLine: {'line': b'\n'}
+[1.007516] (skidpad_detector) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[1.007544] (skidpad_detector) StderrLine: {'line': b'\n'}
+[1.007576] (skidpad_detector) StderrLine: {'line': b'    /usr\n'}
+[1.007615] (skidpad_detector) StderrLine: {'line': b'\n'}
+[1.007653] (skidpad_detector) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[1.007683] (skidpad_detector) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.007711] (skidpad_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[1.018951] (skidpad_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.057308] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.067172] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.067991] (skidpad_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/limdegcai/GSMART/CODE/result/skidpad_detector/include\n'}
+[1.068037] (skidpad_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.077566] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.077641] (skidpad_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.078887] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.081318] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.082597] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.091988] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.092080] (skidpad_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.093292] (skidpad_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.093752] (skidpad_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.100898] (-) TimerEvent: {}
+[1.201117] (-) TimerEvent: {}
+[1.251501] (skidpad_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[1.266163] (skidpad_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector\n'}
+[1.298349] (skidpad_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target skidpad_detector_node\x1b[0m\n'}
+[1.301193] (-) TimerEvent: {}
+[1.336185] (skidpad_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o\x1b[0m\n'}
+[1.336391] (skidpad_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o\x1b[0m\n'}
+[1.338269] (skidpad_detector) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o\x1b[0m\n'}
+[1.401319] (-) TimerEvent: {}
+[1.501595] (-) TimerEvent: {}
+[1.601903] (-) TimerEvent: {}
+[1.702201] (-) TimerEvent: {}
+[1.802481] (-) TimerEvent: {}
+[1.902850] (-) TimerEvent: {}
+[2.003269] (-) TimerEvent: {}
+[2.103587] (-) TimerEvent: {}
+[2.203905] (-) TimerEvent: {}
+[2.304225] (-) TimerEvent: {}
+[2.404542] (-) TimerEvent: {}
+[2.504855] (-) TimerEvent: {}
+[2.605159] (-) TimerEvent: {}
+[2.705436] (-) TimerEvent: {}
+[2.805704] (-) TimerEvent: {}
+[2.906000] (-) TimerEvent: {}
+[3.006293] (-) TimerEvent: {}
+[3.106595] (-) TimerEvent: {}
+[3.206880] (-) TimerEvent: {}
+[3.307180] (-) TimerEvent: {}
+[3.407452] (-) TimerEvent: {}
+[3.507786] (-) TimerEvent: {}
+[3.608123] (-) TimerEvent: {}
+[3.708445] (-) TimerEvent: {}
+[3.808785] (-) TimerEvent: {}
+[3.909107] (-) TimerEvent: {}
+[4.009391] (-) TimerEvent: {}
+[4.109668] (-) TimerEvent: {}
+[4.209948] (-) TimerEvent: {}
+[4.310223] (-) TimerEvent: {}
+[4.410550] (-) TimerEvent: {}
+[4.510918] (-) TimerEvent: {}
+[4.611278] (-) TimerEvent: {}
+[4.711630] (-) TimerEvent: {}
+[4.811953] (-) TimerEvent: {}
+[4.912279] (-) TimerEvent: {}
+[5.012593] (-) TimerEvent: {}
+[5.112908] (-) TimerEvent: {}
+[5.213185] (-) TimerEvent: {}
+[5.313453] (-) TimerEvent: {}
+[5.413733] (-) TimerEvent: {}
+[5.514061] (-) TimerEvent: {}
+[5.614344] (-) TimerEvent: {}
+[5.714636] (-) TimerEvent: {}
+[5.814917] (-) TimerEvent: {}
+[5.915190] (-) TimerEvent: {}
+[6.015460] (-) TimerEvent: {}
+[6.115780] (-) TimerEvent: {}
+[6.216109] (-) TimerEvent: {}
+[6.316425] (-) TimerEvent: {}
+[6.416705] (-) TimerEvent: {}
+[6.516985] (-) TimerEvent: {}
+[6.617288] (-) TimerEvent: {}
+[6.717636] (-) TimerEvent: {}
+[6.817953] (-) TimerEvent: {}
+[6.918244] (-) TimerEvent: {}
+[7.018549] (-) TimerEvent: {}
+[7.118851] (-) TimerEvent: {}
+[7.219170] (-) TimerEvent: {}
+[7.319433] (-) TimerEvent: {}
+[7.419703] (-) TimerEvent: {}
+[7.519960] (-) TimerEvent: {}
+[7.620229] (-) TimerEvent: {}
+[7.720523] (-) TimerEvent: {}
+[7.820841] (-) TimerEvent: {}
+[7.921152] (-) TimerEvent: {}
+[8.021434] (-) TimerEvent: {}
+[8.121742] (-) TimerEvent: {}
+[8.222035] (-) TimerEvent: {}
+[8.322334] (-) TimerEvent: {}
+[8.422652] (-) TimerEvent: {}
+[8.522934] (-) TimerEvent: {}
+[8.623212] (-) TimerEvent: {}
+[8.723517] (-) TimerEvent: {}
+[8.732587] (skidpad_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable skidpad_detector_node\x1b[0m\n'}
+[8.823657] (-) TimerEvent: {}
+[8.923934] (-) TimerEvent: {}
+[9.024187] (-) TimerEvent: {}
+[9.124449] (-) TimerEvent: {}
+[9.224736] (-) TimerEvent: {}
+[9.325055] (-) TimerEvent: {}
+[9.425334] (-) TimerEvent: {}
+[9.525599] (-) TimerEvent: {}
+[9.625891] (-) TimerEvent: {}
+[9.726244] (-) TimerEvent: {}
+[9.826601] (-) TimerEvent: {}
+[9.926902] (-) TimerEvent: {}
+[10.027235] (-) TimerEvent: {}
+[10.127588] (-) TimerEvent: {}
+[10.227904] (-) TimerEvent: {}
+[10.328187] (-) TimerEvent: {}
+[10.428521] (-) TimerEvent: {}
+[10.528858] (-) TimerEvent: {}
+[10.629166] (-) TimerEvent: {}
+[10.729477] (-) TimerEvent: {}
+[10.829794] (-) TimerEvent: {}
+[10.930100] (-) TimerEvent: {}
+[11.030414] (-) TimerEvent: {}
+[11.130718] (-) TimerEvent: {}
+[11.231017] (-) TimerEvent: {}
+[11.331296] (-) TimerEvent: {}
+[11.431595] (-) TimerEvent: {}
+[11.531908] (-) TimerEvent: {}
+[11.632221] (-) TimerEvent: {}
+[11.732544] (-) TimerEvent: {}
+[11.832851] (-) TimerEvent: {}
+[11.933142] (-) TimerEvent: {}
+[12.033444] (-) TimerEvent: {}
+[12.133754] (-) TimerEvent: {}
+[12.157254] (skidpad_detector) StdoutLine: {'line': b'[100%] Built target skidpad_detector_node\n'}
+[12.166295] (skidpad_detector) CommandEnded: {'returncode': 0}
+[12.166707] (skidpad_detector) JobProgress: {'identifier': 'skidpad_detector', 'progress': 'install'}
+[12.172428] (skidpad_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector'], 'cwd': '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'limdegcai'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/limdegcai'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2322'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=916b99fbba7666916e3d626869cc1b87'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'limdegcai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'limdegcai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/limdegcai-Legion-R9000P-ADR10:@/tmp/.ICE-unix/2322,unix/limdegcai-Legion-R9000P-ADR10:/tmp/.ICE-unix/2322'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50a2d345_fe56_49df_86f0_b0f95906858d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c490cd65ca.sock'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=916b99fbba7666916e3d626869cc1b87'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.177852] (skidpad_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.177986] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/lib/skidpad_detector/skidpad_detector_node\n'}
+[12.182752] (skidpad_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/lib/skidpad_detector/skidpad_detector_node" to ""\n'}
+[12.182793] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/launch\n'}
+[12.182831] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/launch/skidpad_detector.launch.py\n'}
+[12.182903] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config\n'}
+[12.182937] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/skidpad_detector.yaml\n'}
+[12.183018] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/skidpad.pcd\n'}
+[12.183057] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/path_x.txt\n'}
+[12.183094] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/config/path_y.txt\n'}
+[12.183139] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/package_run_dependencies/skidpad_detector\n'}
+[12.183177] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/parent_prefix_path/skidpad_detector\n'}
+[12.183206] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/ament_prefix_path.sh\n'}
+[12.183234] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/ament_prefix_path.dsv\n'}
+[12.183270] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/path.sh\n'}
+[12.183307] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/environment/path.dsv\n'}
+[12.183405] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.bash\n'}
+[12.183456] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.sh\n'}
+[12.183493] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.zsh\n'}
+[12.183522] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/local_setup.dsv\n'}
+[12.183575] (skidpad_detector) StdoutLine: {'line': b'-- Installing: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/package.dsv\n'}
+[12.183682] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/ament_index/resource_index/packages/skidpad_detector\n'}
+[12.183733] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/cmake/skidpad_detectorConfig.cmake\n'}
+[12.183770] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/cmake/skidpad_detectorConfig-version.cmake\n'}
+[12.183797] (skidpad_detector) StdoutLine: {'line': b'-- Up-to-date: /home/limdegcai/GSMART/CODE/result/skidpad_detector/install/skidpad_detector/share/skidpad_detector/package.xml\n'}
+[12.185185] (skidpad_detector) CommandEnded: {'returncode': 0}
+[12.193255] (skidpad_detector) JobEnded: {'identifier': 'skidpad_detector', 'rc': 0}
+[12.193632] (-) EventReactorShutdown: {}

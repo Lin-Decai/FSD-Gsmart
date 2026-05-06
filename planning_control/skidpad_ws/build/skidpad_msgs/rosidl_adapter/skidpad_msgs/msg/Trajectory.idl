@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from skidpad_msgs/msg/Trajectory.msg
+// generated code does not contain a copyright notice
+
+#include "skidpad_msgs/msg/TrajectoryPoint.idl"
+#include "std_msgs/msg/Float64.idl"
+#include "std_msgs/msg/Header.idl"
+
+module skidpad_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "轨迹消息，由一系列轨迹点组成")
+    struct Trajectory {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "轨迹点数组")
+      sequence<skidpad_msgs::msg::TrajectoryPoint> trajectory;
+
+      @verbatim (language="comment", text=
+        "当前车辆位置到全局轨迹终点的弧长距离（米）")
+      std_msgs::msg::Float64 remaining_distance;
+    };
+  };
+};

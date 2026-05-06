@@ -1,0 +1,4 @@
+[console_scripts]
+printer_node = icp_test_tools.printer_node:main
+publisher_node = icp_test_tools.publisher_node:main
+

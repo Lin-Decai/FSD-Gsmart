@@ -1,0 +1,3 @@
+[console_scripts]
+fsds_bridge_node = fsds_bridge.bridge_node:main
+

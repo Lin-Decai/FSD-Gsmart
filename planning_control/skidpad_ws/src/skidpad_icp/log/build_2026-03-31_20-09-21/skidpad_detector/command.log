@@ -1,0 +1,2 @@
+Invoking command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32
+Invoked command in '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector -- -j32 -l32

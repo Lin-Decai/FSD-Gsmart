@@ -1,0 +1,27 @@
+[0.126s] Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner -- -j32 -l32
+[0.174s] [ 14%] [32mBuilding CXX object CMakeFiles/skidpad_planner_node.dir/src/Track/skidpad_track.cpp.o[0m
+[2.860s] [ 28%] [32m[1mLinking CXX executable skidpad_planner_node[0m
+[3.270s] [100%] Built target skidpad_planner_node
+[3.278s] Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner -- -j32 -l32
+[3.279s] Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner
+[3.283s] -- Install configuration: ""
+[3.283s] -- Execute custom install script
+[3.284s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/lib/skidpad_planner/skidpad_planner_node
+[3.284s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/config/skidpad_planner.yaml
+[3.285s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/launch/skidpad_planner.launch.py
+[3.285s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/ament_index/resource_index/package_run_dependencies/skidpad_planner
+[3.285s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/ament_index/resource_index/parent_prefix_path/skidpad_planner
+[3.285s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/environment/ament_prefix_path.sh
+[3.285s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/environment/ament_prefix_path.dsv
+[3.286s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/environment/path.sh
+[3.286s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/environment/path.dsv
+[3.286s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/local_setup.bash
+[3.286s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/local_setup.sh
+[3.286s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/local_setup.zsh
+[3.286s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/local_setup.dsv
+[3.286s] -- Symlinking: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.dsv
+[3.293s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/ament_index/resource_index/packages/skidpad_planner
+[3.293s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/cmake/skidpad_plannerConfig.cmake
+[3.293s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/cmake/skidpad_plannerConfig-version.cmake
+[3.293s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_planner/share/skidpad_planner/package.xml
+[3.295s] Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_planner

@@ -1,0 +1,1 @@
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_generator_c/skidpad_msgs/msg/detail/trajectory__type_support.h

@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (skidpad_detector) JobQueued: {'identifier': 'skidpad_detector', 'dependencies': OrderedDict()}
+[0.000635] (skidpad_detector) JobStarted: {'identifier': 'skidpad_detector'}
+[0.005524] (skidpad_detector) JobProgress: {'identifier': 'skidpad_detector', 'progress': 'cmake'}
+[0.006125] (skidpad_detector) JobProgress: {'identifier': 'skidpad_detector', 'progress': 'build'}
+[0.006717] (skidpad_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector', '--', '-j32', '-l32'], 'cwd': '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'limdegcai'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/limdegcai'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2322'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=916b99fbba7666916e3d626869cc1b87'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'limdegcai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'limdegcai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/limdegcai-Legion-R9000P-ADR10:@/tmp/.ICE-unix/2322,unix/limdegcai-Legion-R9000P-ADR10:/tmp/.ICE-unix/2322'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50a2d345_fe56_49df_86f0_b0f95906858d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c490cd65ca.sock'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/limdegcai/GSMART/CODE/result/skidpad_detector/build/skidpad_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=916b99fbba7666916e3d626869cc1b87'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061074] (skidpad_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target skidpad_detector_node\x1b[0m\n'}
+[0.099805] (-) TimerEvent: {}
+[0.108489] (skidpad_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o\x1b[0m\n'}
+[0.108613] (skidpad_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o\x1b[0m\n'}
+[0.110636] (skidpad_detector) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.199937] (-) TimerEvent: {}
+[0.300268] (-) TimerEvent: {}
+[0.400598] (-) TimerEvent: {}
+[0.500995] (-) TimerEvent: {}
+[0.601311] (-) TimerEvent: {}
+[0.701571] (-) TimerEvent: {}
+[0.801979] (-) TimerEvent: {}
+[0.902241] (-) TimerEvent: {}
+[1.002520] (-) TimerEvent: {}
+[1.102819] (-) TimerEvent: {}
+[1.203108] (-) TimerEvent: {}
+[1.303363] (-) TimerEvent: {}
+[1.327001] (skidpad_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1\x1b[m\x1b[K:\n'}
+[1.327184] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated #ifndef\n'}
+[1.327237] (skidpad_detector) StderrLine: {'line': b'    1 | #ifndef SKIDPAD_DETECTOR_HPP\n'}
+[1.327278] (skidpad_detector) StderrLine: {'line': b'      | \n'}
+[1.329486] (skidpad_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8\x1b[m\x1b[K,\n'}
+[1.329560] (skidpad_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:2\x1b[m\x1b[K:\n'}
+[1.329604] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated #ifndef\n'}
+[1.329643] (skidpad_detector) StderrLine: {'line': b'    1 | #ifndef SKIDPAD_DETECTOR_HPP\n'}
+[1.329690] (skidpad_detector) StderrLine: {'line': b'      | \n'}
+[1.338073] (skidpad_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8\x1b[m\x1b[K,\n'}
+[1.338238] (skidpad_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:1\x1b[m\x1b[K:\n'}
+[1.338299] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated #ifndef\n'}
+[1.338365] (skidpad_detector) StderrLine: {'line': b'    1 | #ifndef SKIDPAD_DETECTOR_HPP\n'}
+[1.338416] (skidpad_detector) StderrLine: {'line': b'      | \n'}
+[1.403497] (-) TimerEvent: {}
+[1.503748] (-) TimerEvent: {}
+[1.604028] (-) TimerEvent: {}
+[1.704313] (-) TimerEvent: {}
+[1.804607] (-) TimerEvent: {}
+[1.904966] (-) TimerEvent: {}
+[2.005259] (-) TimerEvent: {}
+[2.105514] (-) TimerEvent: {}
+[2.205755] (-) TimerEvent: {}
+[2.306029] (-) TimerEvent: {}
+[2.406303] (-) TimerEvent: {}
+[2.506568] (-) TimerEvent: {}
+[2.606856] (-) TimerEvent: {}
+[2.707154] (-) TimerEvent: {}
+[2.807425] (-) TimerEvent: {}
+[2.907717] (-) TimerEvent: {}
+[3.007999] (-) TimerEvent: {}
+[3.108290] (-) TimerEvent: {}
+[3.208565] (-) TimerEvent: {}
+[3.308841] (-) TimerEvent: {}
+[3.406861] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:9:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector::SkidpadDetector(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.407029] (skidpad_detector) StderrLine: {'line': b'    9 | SkidpadDetector::SkidpadDetector(rclcpp::Node::SharedPtr nh\x1b[01;31m\x1b[K)\x1b[m\x1b[K : nh_(nh) {\n'}
+[3.407092] (skidpad_detector) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.407985] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:16:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float64MultiArray ns_skidpad_detector::SkidpadDetector::getTransMatrix()\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.408052] (skidpad_detector) StderrLine: {'line': b'   16 | std_msgs::msg::Float64MultiArray SkidpadDetector::getTransMatrix(\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[3.408091] (skidpad_detector) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.408909] (-) TimerEvent: {}
+[3.409010] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:25:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid ns_skidpad_detector::SkidpadDetector::setclusterFiltered(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.409073] (skidpad_detector) StderrLine: {'line': b'   25 | void SkidpadDetector::setclusterFiltered(const sensor_msgs::msg::PointCloud2::SharedPtr msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[3.409125] (skidpad_detector) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.410029] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:30:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid ns_skidpad_detector::SkidpadDetector::loadParameters()\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.410091] (skidpad_detector) StderrLine: {'line': b'   30 | void SkidpadDetector::loadParameters(\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[3.410124] (skidpad_detector) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.411836] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:48:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid ns_skidpad_detector::SkidpadDetector::loadFiles()\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.411884] (skidpad_detector) StderrLine: {'line': b'   48 | void SkidpadDetector::loadFiles(\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[3.411915] (skidpad_detector) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.413768] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:86:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>::Ptr ns_skidpad_detector::SkidpadDetector::ros2ToPcl(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.413805] (skidpad_detector) StderrLine: {'line': b'   86 | pcl::PointCloud<pcl::PointXYZ>::Ptr SkidpadDetector::ros2ToPcl(const sensor_msgs::msg::PointCloud2::SharedPtr &msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[3.413837] (skidpad_detector) StderrLine: {'line': b'      |                                                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.415270] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:92:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid ns_skidpad_detector::SkidpadDetector::runAlgorithm()\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Kns_skidpad_detector::SkidpadDetector\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.415341] (skidpad_detector) StderrLine: {'line': b'   92 | void SkidpadDetector::runAlgorithm(\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[3.415376] (skidpad_detector) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.427408] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:153:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[3.427555] (skidpad_detector) StderrLine: {'line': b'  153 | }\x1b[01;31m\x1b[K \x1b[m\x1b[K// namespace ns_skidpad_detector\n'}
+[3.427606] (skidpad_detector) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.427648] (skidpad_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector.cpp:1\x1b[m\x1b[K:\n'}
+[3.427697] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:19:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.427745] (skidpad_detector) StderrLine: {'line': b'   19 | namespace ns_skidpad_detector \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.427782] (skidpad_detector) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.451965] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:13:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[3.452160] (skidpad_detector) StderrLine: {'line': b'   13 | }\n'}
+[3.452201] (skidpad_detector) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.452236] (skidpad_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8\x1b[m\x1b[K,\n'}
+[3.452272] (skidpad_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/main.cpp:2\x1b[m\x1b[K:\n'}
+[3.452307] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:19:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.452339] (skidpad_detector) StderrLine: {'line': b'   19 | namespace ns_skidpad_detector \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.452369] (skidpad_detector) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.495529] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:64:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[3.495721] (skidpad_detector) StderrLine: {'line': b'   64 | }\x1b[01;31m\x1b[K \x1b[m\x1b[K// namespace ns_skidpad_detector\n'}
+[3.495801] (skidpad_detector) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.495856] (skidpad_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector_handle.hpp:8\x1b[m\x1b[K,\n'}
+[3.495909] (skidpad_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/src/skidpad_detector_handle.cpp:1\x1b[m\x1b[K:\n'}
+[3.495960] (skidpad_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/limdegcai/GSMART/CODE/result/skidpad_detector/include/skidpad_detector.hpp:19:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.495994] (skidpad_detector) StderrLine: {'line': b'   19 | namespace ns_skidpad_detector \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.496026] (skidpad_detector) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.509004] (-) TimerEvent: {}
+[3.609260] (-) TimerEvent: {}
+[3.709547] (-) TimerEvent: {}
+[3.809847] (-) TimerEvent: {}
+[3.910149] (-) TimerEvent: {}
+[4.010439] (-) TimerEvent: {}
+[4.101216] (skidpad_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:104\xef\xbc\x9aCMakeFiles/skidpad_detector_node.dir/src/main.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.101365] (skidpad_detector) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[4.110525] (-) TimerEvent: {}
+[4.210756] (-) TimerEvent: {}
+[4.311045] (-) TimerEvent: {}
+[4.411317] (-) TimerEvent: {}
+[4.511590] (-) TimerEvent: {}
+[4.611893] (-) TimerEvent: {}
+[4.712161] (-) TimerEvent: {}
+[4.812437] (-) TimerEvent: {}
+[4.912742] (-) TimerEvent: {}
+[5.013048] (-) TimerEvent: {}
+[5.113350] (-) TimerEvent: {}
+[5.213644] (-) TimerEvent: {}
+[5.313956] (-) TimerEvent: {}
+[5.414262] (-) TimerEvent: {}
+[5.502422] (skidpad_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.514359] (-) TimerEvent: {}
+[5.614624] (-) TimerEvent: {}
+[5.714942] (-) TimerEvent: {}
+[5.815240] (-) TimerEvent: {}
+[5.915535] (-) TimerEvent: {}
+[5.933051] (skidpad_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/skidpad_detector_node.dir/build.make:90\xef\xbc\x9aCMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.933452] (skidpad_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/skidpad_detector_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.933665] (skidpad_detector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.936187] (skidpad_detector) CommandEnded: {'returncode': 2}
+[5.940889] (skidpad_detector) JobEnded: {'identifier': 'skidpad_detector', 'rc': 2}
+[5.951246] (-) EventReactorShutdown: {}

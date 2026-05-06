@@ -1,0 +1,47 @@
+[0.288s] Invoking command in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools': PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/icp_test_tools build --build-base /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build install --record /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/install.log --install-scripts $base/lib/icp_test_tools --single-version-externally-managed install_data
+[0.394s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.394s]   warnings.warn(
+[0.398s] running egg_info
+[0.398s] creating build/icp_test_tools/icp_test_tools.egg-info
+[0.398s] writing build/icp_test_tools/icp_test_tools.egg-info/PKG-INFO
+[0.398s] writing dependency_links to build/icp_test_tools/icp_test_tools.egg-info/dependency_links.txt
+[0.398s] writing entry points to build/icp_test_tools/icp_test_tools.egg-info/entry_points.txt
+[0.398s] writing requirements to build/icp_test_tools/icp_test_tools.egg-info/requires.txt
+[0.398s] writing top-level names to build/icp_test_tools/icp_test_tools.egg-info/top_level.txt
+[0.398s] writing manifest file 'build/icp_test_tools/icp_test_tools.egg-info/SOURCES.txt'
+[0.399s] reading manifest file 'build/icp_test_tools/icp_test_tools.egg-info/SOURCES.txt'
+[0.399s] writing manifest file 'build/icp_test_tools/icp_test_tools.egg-info/SOURCES.txt'
+[0.399s] running build
+[0.399s] running build_py
+[0.400s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build
+[0.400s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib
+[0.400s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools
+[0.400s] copying icp_test_tools/printer_node.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools
+[0.400s] copying icp_test_tools/publisher_node.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools
+[0.400s] copying icp_test_tools/__init__.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools
+[0.400s] running install
+[0.400s] running install_lib
+[0.400s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools
+[0.400s] copying /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools/printer_node.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools
+[0.400s] copying /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools/publisher_node.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools
+[0.401s] copying /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build/lib/icp_test_tools/__init__.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools
+[0.401s] byte-compiling /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools/printer_node.py to printer_node.cpython-310.pyc
+[0.401s] byte-compiling /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools/publisher_node.py to publisher_node.cpython-310.pyc
+[0.402s] byte-compiling /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools/__init__.py to __init__.cpython-310.pyc
+[0.402s] running install_data
+[0.402s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/ament_index
+[0.402s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/ament_index/resource_index
+[0.402s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/ament_index/resource_index/packages
+[0.402s] copying resource/icp_test_tools -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/ament_index/resource_index/packages
+[0.402s] copying package.xml -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/icp_test_tools
+[0.402s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/icp_test_tools/launch
+[0.402s] copying launch/icp_test.launch.py -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/icp_test_tools/launch
+[0.402s] creating /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/icp_test_tools/config
+[0.402s] copying config/test_params.yaml -> /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/share/icp_test_tools/config
+[0.402s] running install_egg_info
+[0.403s] Copying build/icp_test_tools/icp_test_tools.egg-info to /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages/icp_test_tools-0.0.1-py3.10.egg-info
+[0.404s] running install_scripts
+[0.414s] Installing printer_node script to /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/icp_test_tools
+[0.414s] Installing publisher_node script to /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/icp_test_tools
+[0.414s] writing list of installed files to '/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/install.log'
+[0.427s] Invoked command in '/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools' returned '0': PYTHONPATH=/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/install/icp_test_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/icp_test_tools build --build-base /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/build install --record /home/limdegcai/GSMART/CODE/skidpad_ws/src/icp_test_tools/build/icp_test_tools/install.log --install-scripts $base/lib/icp_test_tools --single-version-externally-managed install_data

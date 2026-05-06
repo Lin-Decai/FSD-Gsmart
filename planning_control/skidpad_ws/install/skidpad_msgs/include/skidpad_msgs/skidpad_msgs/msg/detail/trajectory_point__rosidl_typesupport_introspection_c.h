@@ -1,0 +1,1 @@
+/home/limdegcai/GSMART/CODE/skidpad_ws/build/skidpad_msgs/rosidl_typesupport_introspection_c/skidpad_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h
