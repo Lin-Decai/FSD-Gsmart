@@ -1,0 +1,16 @@
+# Prerequisites
+*.o
+*.i
+**/**Release**/
+**/**Debug**/
+Firmware/
+M4_BL/combine.sh
+M4_BL/config.txt
+*.rej
+**/**install**/
+**/**log**/
+**/**build**/
+**/**devel**/
+**/**vscode**/
+
+
