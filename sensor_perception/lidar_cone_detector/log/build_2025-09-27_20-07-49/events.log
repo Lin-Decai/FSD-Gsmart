@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (lidar_cone_detector) JobQueued: {'identifier': 'lidar_cone_detector', 'dependencies': OrderedDict()}
+[0.000517] (lidar_cone_detector) JobStarted: {'identifier': 'lidar_cone_detector'}
+[0.011686] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'cmake'}
+[0.012339] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'build'}
+[0.013013] (lidar_cone_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector', '--', '-j32', '-l32'], 'cwd': '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xue'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xue'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae5dd0b52be684d7930e3a5168d7b28f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xue'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/xue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xue/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/xue:@/tmp/.ICE-unix/2031,unix/xue:/tmp/.ICE-unix/2031'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/addc9269_7595_4511_8a42_3a60b5ca97f1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2NFKD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2dd0ee9833.sock'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ae5dd0b52be684d7930e3a5168d7b28f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector:/opt/ros/humble')]), 'shell': False}
+[0.076217] (lidar_cone_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_cone_detector\x1b[0m\n'}
+[0.099704] (-) TimerEvent: {}
+[0.113109] (lidar_cone_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o\x1b[0m\n'}
+[0.199776] (-) TimerEvent: {}
+[0.299905] (-) TimerEvent: {}
+[0.400020] (-) TimerEvent: {}
+[0.500216] (-) TimerEvent: {}
+[0.600464] (-) TimerEvent: {}
+[0.700653] (-) TimerEvent: {}
+[0.801229] (-) TimerEvent: {}
+[0.902346] (-) TimerEvent: {}
+[1.002745] (-) TimerEvent: {}
+[1.102857] (-) TimerEvent: {}
+[1.203908] (-) TimerEvent: {}
+[1.304923] (-) TimerEvent: {}
+[1.405164] (-) TimerEvent: {}
+[1.505928] (-) TimerEvent: {}
+[1.606811] (-) TimerEvent: {}
+[1.708897] (-) TimerEvent: {}
+[1.810874] (-) TimerEvent: {}
+[1.911140] (-) TimerEvent: {}
+[2.011279] (-) TimerEvent: {}
+[2.111687] (-) TimerEvent: {}
+[2.212140] (-) TimerEvent: {}
+[2.312911] (-) TimerEvent: {}
+[2.413829] (-) TimerEvent: {}
+[2.514426] (-) TimerEvent: {}
+[2.615123] (-) TimerEvent: {}
+[2.716279] (-) TimerEvent: {}
+[2.818240] (-) TimerEvent: {}
+[2.918600] (-) TimerEvent: {}
+[3.020294] (-) TimerEvent: {}
+[3.121847] (-) TimerEvent: {}
+[3.222163] (-) TimerEvent: {}
+[3.322451] (-) TimerEvent: {}
+[3.422717] (-) TimerEvent: {}
+[3.522931] (-) TimerEvent: {}
+[3.623230] (-) TimerEvent: {}
+[3.723611] (-) TimerEvent: {}
+[3.824000] (-) TimerEvent: {}
+[3.924645] (-) TimerEvent: {}
+[4.026564] (-) TimerEvent: {}
+[4.130267] (-) TimerEvent: {}
+[4.230511] (-) TimerEvent: {}
+[4.330895] (-) TimerEvent: {}
+[4.431054] (lidar_cone_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xue/25_Lidar/lidar_cone_detector/src/lidar_cone_detector_3.19.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Eigen::Matrix<float, 4, 1> > HesaiProcessor::clusterAndDetectCones(const Ptr&, pcl::PointCloud<pcl::PointXYZI>::Ptr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.431386] (-) TimerEvent: {}
+[4.431473] (lidar_cone_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xue/25_Lidar/lidar_cone_detector/src/lidar_cone_detector_3.19.cpp:144:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconstexpr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.431531] (lidar_cone_detector) StderrLine: {'line': b'  144 |         \x1b[01;31m\x1b[Kconstexpr\x1b[m\x1b[K float MIN_HEIGHT = 0.1f;    // \xe6\x9c\x80\xe5\xb0\x8f\xe9\xab\x98\xe5\xba\xa6\n'}
+[4.431572] (lidar_cone_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.438020] (lidar_cone_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xue/25_Lidar/lidar_cone_detector/src/lidar_cone_detector_3.19.cpp:167:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMIN_HEIGHT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KMAX_HEIGHT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.438101] (lidar_cone_detector) StderrLine: {'line': b'  167 |             if (height >= \x1b[01;31m\x1b[KMIN_HEIGHT\x1b[m\x1b[K && height <= MAX_HEIGHT && // \xe9\xab\x98\xe5\xba\xa6\xe8\xbf\x87\xe6\xbb\xa4\n'}
+[4.438138] (lidar_cone_detector) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.438170] (lidar_cone_detector) StderrLine: {'line': b'      |                           \x1b[32m\x1b[KMAX_HEIGHT\x1b[m\x1b[K\n'}
+[4.531969] (-) TimerEvent: {}
+[4.633038] (-) TimerEvent: {}
+[4.733840] (-) TimerEvent: {}
+[4.835480] (-) TimerEvent: {}
+[4.938650] (-) TimerEvent: {}
+[5.039463] (-) TimerEvent: {}
+[5.142145] (-) TimerEvent: {}
+[5.243996] (-) TimerEvent: {}
+[5.345757] (-) TimerEvent: {}
+[5.447548] (-) TimerEvent: {}
+[5.548433] (-) TimerEvent: {}
+[5.649254] (-) TimerEvent: {}
+[5.751234] (-) TimerEvent: {}
+[5.852907] (-) TimerEvent: {}
+[5.954268] (-) TimerEvent: {}
+[6.056419] (-) TimerEvent: {}
+[6.157420] (-) TimerEvent: {}
+[6.258448] (-) TimerEvent: {}
+[6.358920] (-) TimerEvent: {}
+[6.461471] (-) TimerEvent: {}
+[6.564070] (-) TimerEvent: {}
+[6.665473] (-) TimerEvent: {}
+[6.766053] (-) TimerEvent: {}
+[6.866551] (-) TimerEvent: {}
+[6.966908] (-) TimerEvent: {}
+[7.067936] (-) TimerEvent: {}
+[7.169751] (-) TimerEvent: {}
+[7.272193] (-) TimerEvent: {}
+[7.373253] (-) TimerEvent: {}
+[7.474714] (-) TimerEvent: {}
+[7.575814] (-) TimerEvent: {}
+[7.676869] (-) TimerEvent: {}
+[7.777231] (-) TimerEvent: {}
+[7.877415] (-) TimerEvent: {}
+[7.977652] (-) TimerEvent: {}
+[8.077931] (-) TimerEvent: {}
+[8.178090] (-) TimerEvent: {}
+[8.278348] (-) TimerEvent: {}
+[8.378533] (-) TimerEvent: {}
+[8.481179] (-) TimerEvent: {}
+[8.582296] (-) TimerEvent: {}
+[8.684756] (-) TimerEvent: {}
+[8.787364] (-) TimerEvent: {}
+[8.888190] (-) TimerEvent: {}
+[8.989317] (-) TimerEvent: {}
+[9.090465] (-) TimerEvent: {}
+[9.192370] (-) TimerEvent: {}
+[9.294327] (-) TimerEvent: {}
+[9.394697] (-) TimerEvent: {}
+[9.496460] (-) TimerEvent: {}
+[9.597758] (-) TimerEvent: {}
+[9.699095] (-) TimerEvent: {}
+[9.801448] (-) TimerEvent: {}
+[9.902734] (-) TimerEvent: {}
+[10.003664] (-) TimerEvent: {}
+[10.104860] (-) TimerEvent: {}
+[10.208177] (-) TimerEvent: {}
+[10.311519] (-) TimerEvent: {}
+[10.414735] (-) TimerEvent: {}
+[10.518444] (-) TimerEvent: {}
+[10.620265] (-) TimerEvent: {}
+[10.721992] (-) TimerEvent: {}
+[10.806470] (lidar_cone_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_cone_detector.dir/build.make:76\xef\xbc\x9aCMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[10.806981] (lidar_cone_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/lidar_cone_detector.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.807303] (lidar_cone_detector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.814884] (lidar_cone_detector) CommandEnded: {'returncode': 2}
+[10.828095] (-) TimerEvent: {}
+[10.834542] (lidar_cone_detector) JobEnded: {'identifier': 'lidar_cone_detector', 'rc': 2}
+[10.847491] (-) EventReactorShutdown: {}

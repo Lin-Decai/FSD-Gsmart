@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing skidpad_control.egg-info/PKG-INFO
+writing dependency_links to skidpad_control.egg-info/dependency_links.txt
+writing entry points to skidpad_control.egg-info/entry_points.txt
+writing requirements to skidpad_control.egg-info/requires.txt
+writing top-level names to skidpad_control.egg-info/top_level.txt
+reading manifest file 'skidpad_control.egg-info/SOURCES.txt'
+writing manifest file 'skidpad_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/python3.10/site-packages/skidpad-control.egg-link (link to .)
+Installing pure_pursuit_node script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/skidpad_control
+Installing skidpad_visualizer script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_control/lib/skidpad_control
+
+Installed /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_control
+running symlink_data

@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target lidar_cone_detector[0m
+[0.126s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o[0m
+[13.424s] [100%] [32m[1mLinking CXX executable lidar_cone_detector[0m
+[16.071s] [100%] Built target lidar_cone_detector
+[16.080s] Invoked command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[16.086s] Invoking command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector
+[16.091s] -- Install configuration: "Release"
+[16.092s] -- Installing: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector
+[16.093s] -- Set runtime path of "/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector" to ""
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/parent_prefix_path/lidar_cone_detector
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.sh
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.dsv
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.sh
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.dsv
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.bash
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.sh
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.zsh
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.dsv
+[16.093s] -- Installing: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.dsv
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/packages/lidar_cone_detector
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig.cmake
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig-version.cmake
+[16.093s] -- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.xml
+[16.095s] Invoked command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector

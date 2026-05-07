@@ -1,0 +1,17 @@
+[0.410s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge/build --no-deps symlink_data
+[0.530s] running develop
+[0.601s] running egg_info
+[0.601s] writing fsds_bridge.egg-info/PKG-INFO
+[0.601s] writing dependency_links to fsds_bridge.egg-info/dependency_links.txt
+[0.601s] writing entry points to fsds_bridge.egg-info/entry_points.txt
+[0.602s] writing requirements to fsds_bridge.egg-info/requires.txt
+[0.602s] writing top-level names to fsds_bridge.egg-info/top_level.txt
+[0.603s] reading manifest file 'fsds_bridge.egg-info/SOURCES.txt'
+[0.603s] writing manifest file 'fsds_bridge.egg-info/SOURCES.txt'
+[0.604s] running build_ext
+[0.604s] Creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages/fsds-bridge.egg-link (link to .)
+[0.604s] Installing fsds_bridge_node script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge/lib/fsds_bridge
+[0.605s] 
+[0.605s] Installed /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge
+[0.605s] running symlink_data
+[0.626s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/fsds_bridge/lib/python3.10/site-packages:/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/fsds_bridge/build --no-deps symlink_data
