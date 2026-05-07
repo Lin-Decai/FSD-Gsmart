@@ -1,0 +1,651 @@
+[0.008s] Invoking command in '/home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/x/Documents/at20260415workspace/workspace/camera/src/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.294s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.413s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.518s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.532s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.762s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.149s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.150s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.166s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.166s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.166s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.188s] -- Found PythonExtra: .so  
+[1.244s] -- Configuring done
+[1.278s] -- Generating done
+[1.286s] -- Build files have been written to: /home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs
+[1.291s] Invoked command in '/home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/x/Documents/at20260415workspace/workspace/camera/src/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs
+[1.293s] Invoking command in '/home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs -- -j20 -l20
+[1.329s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.332s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.341s] [  1%] Built target ament_cmake_python_copy_yolo_msgs
+[1.491s] running egg_info
+[1.491s] creating yolo_msgs.egg-info
+[1.492s] writing yolo_msgs.egg-info/PKG-INFO
+[1.492s] writing dependency_links to yolo_msgs.egg-info/dependency_links.txt
+[1.492s] writing top-level names to yolo_msgs.egg-info/top_level.txt
+[1.492s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.493s] reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.494s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.514s] [  1%] Built target ament_cmake_python_build_yolo_msgs_egg
+[2.081s] [  1%] Built target yolo_msgs__cpp
+[2.087s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.089s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.090s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.367s] [  3%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__functions.c.o[0m
+[2.367s] [  4%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/pose2_d__functions.c.o[0m
+[2.367s] [  5%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/vector2__functions.c.o[0m
+[2.367s] [  7%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.c.o[0m
+[2.367s] [  7%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d__functions.c.o[0m
+[2.367s] [  8%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/mask__functions.c.o[0m
+[2.367s] [  8%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[2.368s] [  8%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d_array__functions.c.o[0m
+[2.368s] [  9%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[2.368s] [  9%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection__functions.c.o[0m
+[2.368s] [ 10%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d_array__functions.c.o[0m
+[2.368s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection_array__functions.c.o[0m
+[2.370s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detected_object_array__functions.c.o[0m
+[2.370s] [ 12%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detected_object__functions.c.o[0m
+[2.373s] [ 13%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/srv/detail/set_classes__functions.c.o[0m
+[2.428s] [ 14%] [32m[1mLinking C shared library libyolo_msgs__rosidl_generator_c.so[0m
+[2.461s] [ 14%] Built target yolo_msgs__rosidl_generator_c
+[2.466s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.466s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.469s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.612s] [ 18%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/point2_d__type_support.cpp.o[0m
+[2.619s] [ 18%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[2.620s] [ 19%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/mask__type_support.cpp.o[0m
+[2.620s] [ 21%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[2.620s] [ 21%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/pose2_d__type_support.cpp.o[0m
+[2.620s] [ 21%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/vector2__type_support.cpp.o[0m
+[2.620s] [ 22%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[2.621s] [ 24%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[2.621s] [ 24%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[2.621s] [ 24%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[2.621s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection__type_support.cpp.o[0m
+[2.621s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection_array__type_support.cpp.o[0m
+[2.621s] [ 26%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detected_object__type_support.cpp.o[0m
+[2.621s] [ 27%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detected_object_array__type_support.cpp.o[0m
+[2.621s] [ 27%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/srv/set_classes__type_support.cpp.o[0m
+[2.909s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/vector2__type_support.cpp.o[0m
+[2.909s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[2.911s] [ 29%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[2.911s] [ 30%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp.o[0m
+[2.911s] [ 31%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[2.914s] [ 32%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/mask__type_support.cpp.o[0m
+[2.928s] [ 32%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d__type_support.cpp.o[0m
+[2.938s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp.o[0m
+[2.945s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp.o[0m
+[2.947s] [ 34%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection__type_support.cpp.o[0m
+[2.951s] [ 35%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp.o[0m
+[2.952s] [ 36%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection_array__type_support.cpp.o[0m
+[2.983s] [ 37%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[2.985s] [ 37%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detected_object__type_support.cpp.o[0m
+[2.986s] [ 38%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detected_object_array__type_support.cpp.o[0m
+[3.022s] [ 39%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_cpp.so[0m
+[3.023s] [ 40%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o[0m
+[3.102s] [ 40%] Built target yolo_msgs__rosidl_typesupport_cpp
+[3.114s] [ 40%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[3.305s] [ 41%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o[0m
+[3.313s] [ 42%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[3.331s] [ 42%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o[0m
+[3.333s] [ 43%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o[0m
+[3.336s] [ 44%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/srv/detail/set_classes__type_support.cpp.o[0m
+[3.337s] [ 45%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o[0m
+[3.351s] [ 45%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o[0m
+[3.358s] [ 46%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o[0m
+[3.370s] [ 47%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[3.477s] [ 48%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o[0m
+[3.531s] [ 48%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/point2_d__type_support.cpp.o[0m
+[3.566s] [ 48%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o[0m
+[3.597s] [ 49%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/vector2__type_support.cpp.o[0m
+[3.598s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detected_object_array__type_support.cpp.o[0m
+[3.599s] [ 51%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/pose2_d__type_support.cpp.o[0m
+[3.613s] [ 52%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/srv/detail/dds_fastrtps/set_classes__type_support.cpp.o[0m
+[3.631s] [ 52%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[3.634s] [ 53%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[3.669s] [ 54%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/mask__type_support.cpp.o[0m
+[3.679s] [ 55%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[3.688s] [ 55%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[3.697s] [ 56%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[3.699s] [ 57%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[3.715s] [ 57%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection__type_support.cpp.o[0m
+[3.719s] [ 58%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection_array__type_support.cpp.o[0m
+[3.719s] [ 59%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detected_object__type_support.cpp.o[0m
+[3.726s] [ 60%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/srv/set_classes__type_support.cpp.o[0m
+[3.733s] [ 60%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detected_object_array__type_support.cpp.o[0m
+[3.761s] [ 61%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[3.765s] [ 62%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[3.765s] [ 63%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_c.so[0m
+[3.772s] [ 63%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/vector2__type_support_c.cpp.o[0m
+[3.774s] [ 64%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o[0m
+[3.775s] [ 65%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/mask__type_support_c.cpp.o[0m
+[3.776s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d__type_support_c.cpp.o[0m
+[3.776s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[3.779s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o[0m
+[3.787s] [ 67%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.797s] [ 68%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d__type_support_c.cpp.o[0m
+[3.797s] [ 69%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/point2_d__type_support.c.o[0m
+[3.805s] [ 69%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/vector2__type_support.c.o[0m
+[3.820s] [ 69%] Built target yolo_msgs__rosidl_typesupport_c
+[3.827s] [ 70%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[3.833s] [ 71%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o[0m
+[3.851s] [ 72%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[3.861s] [ 73%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[3.868s] [ 74%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[3.874s] [ 74%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection_array__type_support_c.cpp.o[0m
+[3.897s] [ 74%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/mask__type_support.c.o[0m
+[3.932s] [ 74%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[3.946s] [ 75%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d__type_support.c.o[0m
+[3.950s] [ 76%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detected_object__type_support_c.cpp.o[0m
+[3.950s] [ 77%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d_array__type_support.c.o[0m
+[3.985s] [ 78%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detected_object_array__type_support_c.cpp.o[0m
+[3.989s] [ 78%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/srv/detail/set_classes__type_support_c.cpp.o[0m
+[3.992s] [ 78%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d__type_support.c.o[0m
+[4.030s] [ 79%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d_array__type_support.c.o[0m
+[4.030s] [ 80%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection__type_support.c.o[0m
+[4.053s] [ 80%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection_array__type_support.c.o[0m
+[4.071s] [ 81%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detected_object__type_support.c.o[0m
+[4.084s] [ 82%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detected_object_array__type_support.c.o[0m
+[4.092s] [ 83%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/srv/detail/set_classes__type_support.c.o[0m
+[4.133s] [ 83%] [32m[1mLinking C shared library libyolo_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.162s] [ 83%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[4.234s] [ 83%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.289s] [ 83%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[4.299s] [ 84%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.351s] [ 84%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[4.369s] [ 84%] Built target yolo_msgs
+[4.387s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.380s] [ 85%] Built target yolo_msgs__py
+[5.396s] [ 87%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_vector2_s.c.o[0m
+[5.397s] [ 87%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d_s.c.o[0m
+[5.397s] [ 88%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_s.c.o[0m
+[5.397s] [ 89%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array_s.c.o[0m
+[5.397s] [ 89%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d_s.c.o[0m
+[5.398s] [ 90%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c.o[0m
+[5.398s] [ 90%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c.o[0m
+[5.398s] [ 91%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_mask_s.c.o[0m
+[5.399s] [ 91%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_point2_d_s.c.o[0m
+[5.399s] [ 92%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_pose2_d_s.c.o[0m
+[5.399s] [ 92%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_s.c.o[0m
+[5.400s] [ 93%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_array_s.c.o[0m
+[5.400s] [ 94%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detected_object_array_s.c.o[0m
+[5.401s] [ 95%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detected_object_s.c.o[0m
+[5.403s] [ 95%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c.o[0m
+[5.504s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/libyolo_msgs__rosidl_generator_py.so[0m
+[5.538s] [ 96%] Built target yolo_msgs__rosidl_generator_py
+[5.553s] [ 97%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.554s] [ 98%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.554s] [ 99%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.632s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.632s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.632s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.657s] [100%] Built target yolo_msgs__rosidl_typesupport_introspection_c__pyext
+[5.658s] [100%] Built target yolo_msgs__rosidl_typesupport_c__pyext
+[5.661s] [100%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.669s] Invoked command in '/home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs -- -j20 -l20
+[5.670s] Invoking command in '/home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs
+[5.675s] -- Install configuration: ""
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.c
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detected_object.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.h
+[5.675s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detected_object_array.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.c
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__struct.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__functions.c
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.c
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.c
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.c
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.h
+[5.676s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__type_support.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.h
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.c
+[5.677s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.c
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__struct.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__functions.c
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__type_support.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.h
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/library_path.sh
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/library_path.dsv
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+[5.678s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so" to ""
+[5.678s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[5.678s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[5.678s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_c.h
+[5.678s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[5.678s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.679s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[5.679s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+[5.679s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.679s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[5.679s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[5.680s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.c
+[5.680s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.680s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.c
+[5.680s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.c
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.c
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__type_support.c
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+[5.681s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+[5.681s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so" to ""
+[5.681s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[5.681s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.hpp
+[5.681s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[5.681s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__traits.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__builder.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.hpp
+[5.682s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detected_object_array.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detected_object.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.hpp
+[5.682s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__builder.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__type_support.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__builder.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__struct.hpp
+[5.682s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__builder.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__builder.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__builder.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__builder.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__builder.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp
+[5.683s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__builder.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__builder.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[5.684s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__type_support.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__builder.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__builder.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__builder.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__struct.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__builder.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.685s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[5.685s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[5.685s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_cpp.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/dds_fastrtps
+[5.685s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.685s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.685s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/dds_fastrtps
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[5.686s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.686s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.686s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[5.689s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[5.690s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[5.690s] -- Up-to-date: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object_array__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp
+[5.690s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.cpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detected_object__rosidl_typesupport_introspection_cpp.hpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.cpp
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+[5.691s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+[5.691s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so" to ""
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.sh
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.dsv
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/top_level.txt
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/dependency_links.txt
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/SOURCES.txt
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/PKG-INFO
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes_s.c
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/libyolo_msgs__rosidl_generator_py.so
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_s.c
+[5.691s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detected_object_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detected_object_array.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detected_object.py
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detected_object_array_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array_s.c
+[5.692s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py
+[5.719s] Listing '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs'...
+[5.719s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py'...
+[5.719s] Listing '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg'...
+[5.719s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py'...
+[5.719s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detected_object.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detected_object_array.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py'...
+[5.720s] Listing '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py'...
+[5.720s] Compiling '/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py'...
+[5.722s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+[5.723s] -- Set runtime path of "/home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so" to ""
+[5.723s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Point2D.idl
+[5.723s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Vector2.idl
+[5.723s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Mask.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Detection.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/DetectedObject.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/DetectedObjectArray.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.idl
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg
+[5.724s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/DetectedObject.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/msg/DetectedObjectArray.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Request.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Response.msg
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/ament_index/resource_index/package_run_dependencies/yolo_msgs
+[5.725s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/ament_index/resource_index/parent_prefix_path/yolo_msgs
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.sh
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.dsv
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/path.sh
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/environment/path.dsv
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/local_setup.bash
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/local_setup.sh
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/local_setup.zsh
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/local_setup.dsv
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/package.dsv
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/ament_index/resource_index/packages/yolo_msgs
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport.cmake
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.726s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cppExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake
+[5.727s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig-version.cmake
+[5.728s] -- Installing: /home/x/Documents/at20260415workspace/workspace/camera/install/yolo_msgs/share/yolo_msgs/package.xml
+[5.730s] Invoked command in '/home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/x/Documents/at20260415workspace/workspace/camera/build/yolo_msgs

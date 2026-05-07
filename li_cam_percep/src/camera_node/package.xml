@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>camera_node</name>
+  <version>0.0.0</version>
+  <description>Camera node for ROS2 with distortion correction</description>
+  <maintainer email="1521733861@qq.com">yumuyang</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 运行时依赖 -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>opencv2</depend>  <!-- 修正为 opencv2 -->
+
+
+
+  
+  <!-- 编译时依赖（用于生成消息和接口） -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>message_generation</build_depend>  <!-- 修正标签为 build_depend -->
+  <build_depend>camera_msg</build_depend>
+  
+  <!-- 执行时依赖（消息运行时库） -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>camera_msg</exec_depend>
+
+  <!-- 测试依赖 -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <!-- 声明为消息接口包（如果包含 msg/srv/action 文件） -->
+    <member_of_group>rosidl_interface_packages</member_of_group>
+  </export>
+</package>
+
+
+

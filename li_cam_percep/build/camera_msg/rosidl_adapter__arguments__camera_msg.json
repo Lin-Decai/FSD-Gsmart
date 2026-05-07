@@ -1,0 +1,7 @@
+{
+  "package_name": "camera_msg",
+  "non_idl_tuples": [
+    "/home/x/Documents/at20260415workspace/workspace/camera/src/camera_msg:msg/YoloMsg.msg",
+    "/home/x/Documents/at20260415workspace/workspace/camera/src/camera_msg:msg/YoloMsgArray.msg"
+  ]
+}

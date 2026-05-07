@@ -1,0 +1,12 @@
+[console_scripts]
+camera_info_1 = camera_node.camera_info_1:main
+camera_info_2 = camera_node.camera_info_2:main
+camera_node_1 = camera_node.camera_node_1:main
+camera_node_1_pro = camera_node.camera_node_1_pro:main
+camera_node_1_raw = camera_node.camera_node_1_raw:main
+camera_node_2 = camera_node.camera_node_2:main
+camera_node_2_pro = camera_node.camera_node_2_pro:main
+camera_node_2_raw = camera_node.camera_node_2_raw:main
+camera_node_yolo_1 = camera_node.camera_node_yolo_1:main
+camera_node_yolo_2 = camera_node.camera_node_yolo_2:main
+

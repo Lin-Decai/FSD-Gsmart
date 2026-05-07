@@ -1,0 +1,6 @@
+setup.py
+camera_msg/__init__.py
+camera_msg.egg-info/PKG-INFO
+camera_msg.egg-info/SOURCES.txt
+camera_msg.egg-info/dependency_links.txt
+camera_msg.egg-info/top_level.txt

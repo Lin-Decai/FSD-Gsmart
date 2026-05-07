@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "camera_msg__py",
+		"source" : "/home/x/Documents/at20260415workspace/workspace/camera/build/camera_msg/camera_msg__py"
+	}
+}

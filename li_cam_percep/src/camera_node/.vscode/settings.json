@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/jlu_racing/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/jlu_racing/devel/lib/python3/dist-packages"
+    ]
+}

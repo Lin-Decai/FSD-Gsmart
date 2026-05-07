@@ -1,0 +1,10 @@
+[console_scripts]
+debug_node1 = yolo_ros.debug_node1:main
+debug_node2 = yolo_ros.debug_node2:main
+detect_3d_node1 = yolo_ros.detect_3d_node1:main
+detect_3d_node2 = yolo_ros.detect_3d_node2:main
+tracking_node1 = yolo_ros.tracking_node1:main
+tracking_node2 = yolo_ros.tracking_node2:main
+yolo_node1 = yolo_ros.yolo_node1:main
+yolo_node2 = yolo_ros.yolo_node2:main
+

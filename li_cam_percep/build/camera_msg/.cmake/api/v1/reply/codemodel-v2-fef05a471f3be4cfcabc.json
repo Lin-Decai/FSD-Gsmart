@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-050a7d3dcaf2856d8f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "camera_msg__py",
+					"jsonFile" : "directory-camera_msg__py-cd78c72defa47b666b78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/x/Documents/at20260415workspace/workspace/camera/build/camera_msg/camera_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "camera_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_camera_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_camera_msg_egg-2e49e82916b411ba893c.json",
+					"name" : "ament_cmake_python_build_camera_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_camera_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_camera_msg-9d061ae59c4fdf17c96b.json",
+					"name" : "ament_cmake_python_copy_camera_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg-174075758c048c8f6135.json",
+					"name" : "camera_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__cpp-bec43145e59498f168f4.json",
+					"name" : "camera_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "camera_msg__py::@ef3379849a9aab84ed1b",
+					"jsonFile" : "target-camera_msg__py-190d5fdd34372c5eee9a.json",
+					"name" : "camera_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_generator_c-bc52f7b22a95f9b74644.json",
+					"name" : "camera_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_generator_py-92f4fef9d7c20ece8db5.json",
+					"name" : "camera_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_c-4aacda4ea47bfd2db767.json",
+					"name" : "camera_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_c__pyext-5685eb85a037fa780355.json",
+					"name" : "camera_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_cpp-c2a1cdd1d6c2db9402a9.json",
+					"name" : "camera_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_fastrtps_c-a438166df6080034acd3.json",
+					"name" : "camera_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_fastrtps_c__pyext-bc2a15f8537831ad4b83.json",
+					"name" : "camera_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_fastrtps_cpp-592adf20fa323943f0cd.json",
+					"name" : "camera_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_introspection_c-d644437bffef9bd5473b.json",
+					"name" : "camera_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_introspection_c__pyext-bf0f8b445321434f9383.json",
+					"name" : "camera_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg__rosidl_typesupport_introspection_cpp-f35566bd6988e573b3ab.json",
+					"name" : "camera_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_msg_uninstall-c5546f2bd9cf2521adef.json",
+					"name" : "camera_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c25c3c2b0e41cb061d3c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/x/Documents/at20260415workspace/workspace/camera/build/camera_msg",
+		"source" : "/home/x/Documents/at20260415workspace/workspace/camera/src/camera_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

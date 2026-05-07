@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/yolo_ros/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/yolo_msgs/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/can_communication/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/ros2_socketcan_msgs/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/ros2_lidar_camera_fusion_with_detection/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/camera_node/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/camera_msg/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GNSS_25/imu_GNSS_odometer/install/navigation_msgs/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GNSS_25/imu_GNSS_odometer/install/gnss_ins_msg/lib/python3.8/site-packages",
+        "/usr/local/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/gsmart_2025/install/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/gsmart_2025/install/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/jlu_racing/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/yolo_ros/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/yolo_msgs/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/can_communication/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/ros2_socketcan_msgs/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/ros2_lidar_camera_fusion_with_detection/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/camera_node/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GSMART2025_FINAL/gsmart_2025/install/camera_msg/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GNSS_25/imu_GNSS_odometer/install/navigation_msgs/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/GNSS_25/imu_GNSS_odometer/install/gnss_ins_msg/lib/python3.8/site-packages",
+        "/usr/local/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/gsmart_2025/install/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/gsmart_2025/install/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/media/nvidia/nvme0n1/jlu_racing/devel/lib/python3/dist-packages"
+    ]
+}

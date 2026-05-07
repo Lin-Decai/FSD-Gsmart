@@ -1,0 +1,6 @@
+[console_scripts]
+detection1 = ros2_lidar_camera_fusion_with_detection.detection1:main
+lidar_camera_fusion_with_detection1 = ros2_lidar_camera_fusion_with_detection.lidar_camera_fusion_with_detection1:main
+lidar_camera_fusion_with_detection2 = ros2_lidar_camera_fusion_with_detection.lidar_camera_fusion_with_detection2:main
+multi_sensor_fusion_node = ros2_lidar_camera_fusion_with_detection.multi_sensor_fusion_node:main
+

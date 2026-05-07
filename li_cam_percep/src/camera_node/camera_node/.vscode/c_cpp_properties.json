@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/media/nvidia/nvme0n1/gsmart_2025/install/ros2_socketcan/include/**",
+        "/media/nvidia/nvme0n1/gsmart_2025/install/ros2_socketcan_msgs/include/**",
+        "/media/nvidia/nvme0n1/gsmart_2025/install/camera_msg/include/**",
+        "/opt/ros/foxy/include/**",
+        "/media/nvidia/nvme0n1/gsmart_2025/src/ros2_socketcan/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
