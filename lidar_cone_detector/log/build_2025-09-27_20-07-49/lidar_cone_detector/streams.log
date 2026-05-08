@@ -1,0 +1,15 @@
+[0.014s] Invoking command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target lidar_cone_detector[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o[0m
+[4.431s] [01m[K/home/xue/25_Lidar/lidar_cone_detector/src/lidar_cone_detector_3.19.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<float, 4, 1> > HesaiProcessor::clusterAndDetectCones(const Ptr&, pcl::PointCloud<pcl::PointXYZI>::Ptr&)[m[K’:
+[4.431s] [01m[K/home/xue/25_Lidar/lidar_cone_detector/src/lidar_cone_detector_3.19.cpp:144:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kconstexpr[m[K’
+[4.431s]   144 |         [01;31m[Kconstexpr[m[K float MIN_HEIGHT = 0.1f;    // 最小高度
+[4.431s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.438s] [01m[K/home/xue/25_Lidar/lidar_cone_detector/src/lidar_cone_detector_3.19.cpp:167:27:[m[K [01;31m[Kerror: [m[K‘[01m[KMIN_HEIGHT[m[K’ was not declared in this scope; did you mean ‘[01m[KMAX_HEIGHT[m[K’?
+[4.438s]   167 |             if (height >= [01;31m[KMIN_HEIGHT[m[K && height <= MAX_HEIGHT && // 高度过滤
+[4.438s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[4.438s]       |                           [32m[KMAX_HEIGHT[m[K
+[10.806s] gmake[2]: *** [CMakeFiles/lidar_cone_detector.dir/build.make:76：CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o] 错误 1
+[10.806s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/lidar_cone_detector.dir/all] 错误 2
+[10.807s] gmake: *** [Makefile:146：all] 错误 2
+[10.816s] Invoked command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32

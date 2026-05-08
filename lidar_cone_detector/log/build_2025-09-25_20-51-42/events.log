@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000617] (lidar_cone_detector) JobQueued: {'identifier': 'lidar_cone_detector', 'dependencies': OrderedDict()}
+[0.000644] (lidar_cone_detector) JobStarted: {'identifier': 'lidar_cone_detector'}
+[0.014473] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'cmake'}
+[0.015190] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'build'}
+[0.016550] (lidar_cone_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector', '--', '-j32', '-l32'], 'cwd': '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xue'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xue'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2020'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ef3ad703c38219889aae6c568d53701'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xue'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/xue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xue/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/xue:@/tmp/.ICE-unix/2020,unix/xue:/tmp/.ICE-unix/2020'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a316c2af_9118_4abf_a8fb_adca941d2e9f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L7OND3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2dd0ee9833.sock'), ('GNOME_TERMINAL_SERVICE', ':1.150'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ef3ad703c38219889aae6c568d53701'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector:/opt/ros/humble')]), 'shell': False}
+[0.099798] (-) TimerEvent: {}
+[0.153463] (lidar_cone_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_cone_detector\x1b[0m\n'}
+[0.199878] (-) TimerEvent: {}
+[0.227611] (lidar_cone_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o\x1b[0m\n'}
+[0.299966] (-) TimerEvent: {}
+[0.400130] (-) TimerEvent: {}
+[0.500250] (-) TimerEvent: {}
+[0.600482] (-) TimerEvent: {}
+[0.700870] (-) TimerEvent: {}
+[0.801816] (-) TimerEvent: {}
+[0.903044] (-) TimerEvent: {}
+[1.003252] (-) TimerEvent: {}
+[1.103404] (-) TimerEvent: {}
+[1.203522] (-) TimerEvent: {}
+[1.304091] (-) TimerEvent: {}
+[1.404286] (-) TimerEvent: {}
+[1.504425] (-) TimerEvent: {}
+[1.604608] (-) TimerEvent: {}
+[1.704823] (-) TimerEvent: {}
+[1.805789] (-) TimerEvent: {}
+[1.906441] (-) TimerEvent: {}
+[2.006659] (-) TimerEvent: {}
+[2.106920] (-) TimerEvent: {}
+[2.207090] (-) TimerEvent: {}
+[2.307274] (-) TimerEvent: {}
+[2.407684] (-) TimerEvent: {}
+[2.508101] (-) TimerEvent: {}
+[2.608221] (-) TimerEvent: {}
+[2.708348] (-) TimerEvent: {}
+[2.808469] (-) TimerEvent: {}
+[2.908594] (-) TimerEvent: {}
+[3.008722] (-) TimerEvent: {}
+[3.108863] (-) TimerEvent: {}
+[3.208998] (-) TimerEvent: {}
+[3.309126] (-) TimerEvent: {}
+[3.409234] (-) TimerEvent: {}
+[3.509358] (-) TimerEvent: {}
+[3.609487] (-) TimerEvent: {}
+[3.709615] (-) TimerEvent: {}
+[3.809742] (-) TimerEvent: {}
+[3.909992] (-) TimerEvent: {}
+[4.010229] (-) TimerEvent: {}
+[4.110505] (-) TimerEvent: {}
+[4.210749] (-) TimerEvent: {}
+[4.311047] (-) TimerEvent: {}
+[4.411295] (-) TimerEvent: {}
+[4.511532] (-) TimerEvent: {}
+[4.611784] (-) TimerEvent: {}
+[4.712036] (-) TimerEvent: {}
+[4.812377] (-) TimerEvent: {}
+[4.912798] (-) TimerEvent: {}
+[5.013038] (-) TimerEvent: {}
+[5.113296] (-) TimerEvent: {}
+[5.213539] (-) TimerEvent: {}
+[5.313789] (-) TimerEvent: {}
+[5.414040] (-) TimerEvent: {}
+[5.514344] (-) TimerEvent: {}
+[5.614690] (-) TimerEvent: {}
+[5.714918] (-) TimerEvent: {}
+[5.815187] (-) TimerEvent: {}
+[5.915438] (-) TimerEvent: {}
+[6.015688] (-) TimerEvent: {}
+[6.116229] (-) TimerEvent: {}
+[6.216456] (-) TimerEvent: {}
+[6.316691] (-) TimerEvent: {}
+[6.416932] (-) TimerEvent: {}
+[6.517223] (-) TimerEvent: {}
+[6.617513] (-) TimerEvent: {}
+[6.717755] (-) TimerEvent: {}
+[6.818015] (-) TimerEvent: {}
+[6.918274] (-) TimerEvent: {}
+[7.018534] (-) TimerEvent: {}
+[7.119008] (-) TimerEvent: {}
+[7.219262] (-) TimerEvent: {}
+[7.319541] (-) TimerEvent: {}
+[7.419805] (-) TimerEvent: {}
+[7.520076] (-) TimerEvent: {}
+[7.620336] (-) TimerEvent: {}
+[7.720632] (-) TimerEvent: {}
+[7.821001] (-) TimerEvent: {}
+[7.921499] (-) TimerEvent: {}
+[8.021757] (-) TimerEvent: {}
+[8.122011] (-) TimerEvent: {}
+[8.222238] (-) TimerEvent: {}
+[8.322488] (-) TimerEvent: {}
+[8.422742] (-) TimerEvent: {}
+[8.523002] (-) TimerEvent: {}
+[8.623320] (-) TimerEvent: {}
+[8.723544] (-) TimerEvent: {}
+[8.823783] (-) TimerEvent: {}
+[8.924014] (-) TimerEvent: {}
+[9.024273] (-) TimerEvent: {}
+[9.124521] (-) TimerEvent: {}
+[9.224763] (-) TimerEvent: {}
+[9.325096] (-) TimerEvent: {}
+[9.425443] (-) TimerEvent: {}
+[9.525684] (-) TimerEvent: {}
+[9.625918] (-) TimerEvent: {}
+[9.726153] (-) TimerEvent: {}
+[9.826394] (-) TimerEvent: {}
+[9.926638] (-) TimerEvent: {}
+[10.026966] (-) TimerEvent: {}
+[10.127379] (-) TimerEvent: {}
+[10.227612] (-) TimerEvent: {}
+[10.327814] (-) TimerEvent: {}
+[10.428036] (-) TimerEvent: {}
+[10.528271] (-) TimerEvent: {}
+[10.628530] (-) TimerEvent: {}
+[10.728791] (-) TimerEvent: {}
+[10.829071] (-) TimerEvent: {}
+[10.929422] (-) TimerEvent: {}
+[11.029644] (-) TimerEvent: {}
+[11.129875] (-) TimerEvent: {}
+[11.230099] (-) TimerEvent: {}
+[11.330328] (-) TimerEvent: {}
+[11.430576] (-) TimerEvent: {}
+[11.530855] (-) TimerEvent: {}
+[11.631223] (-) TimerEvent: {}
+[11.731470] (-) TimerEvent: {}
+[11.831708] (-) TimerEvent: {}
+[11.931965] (-) TimerEvent: {}
+[12.032208] (-) TimerEvent: {}
+[12.132429] (-) TimerEvent: {}
+[12.232654] (-) TimerEvent: {}
+[12.332919] (-) TimerEvent: {}
+[12.433172] (-) TimerEvent: {}
+[12.533427] (-) TimerEvent: {}
+[12.591326] (lidar_cone_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_cone_detector\x1b[0m\n'}
+[12.633486] (-) TimerEvent: {}
+[12.733693] (-) TimerEvent: {}
+[12.835241] (-) TimerEvent: {}
+[12.935542] (-) TimerEvent: {}
+[13.035785] (-) TimerEvent: {}
+[13.137915] (-) TimerEvent: {}
+[13.238444] (-) TimerEvent: {}
+[13.339690] (-) TimerEvent: {}
+[13.441518] (-) TimerEvent: {}
+[13.542571] (-) TimerEvent: {}
+[13.644992] (-) TimerEvent: {}
+[13.747347] (-) TimerEvent: {}
+[13.849194] (-) TimerEvent: {}
+[13.950672] (-) TimerEvent: {}
+[14.052647] (-) TimerEvent: {}
+[14.156358] (-) TimerEvent: {}
+[14.258539] (-) TimerEvent: {}
+[14.361009] (-) TimerEvent: {}
+[14.461794] (-) TimerEvent: {}
+[14.563532] (-) TimerEvent: {}
+[14.665693] (-) TimerEvent: {}
+[14.766052] (-) TimerEvent: {}
+[14.867402] (-) TimerEvent: {}
+[14.970106] (-) TimerEvent: {}
+[15.070360] (-) TimerEvent: {}
+[15.170615] (-) TimerEvent: {}
+[15.267578] (lidar_cone_detector) StdoutLine: {'line': b'[100%] Built target lidar_cone_detector\n'}
+[15.270682] (-) TimerEvent: {}
+[15.277491] (lidar_cone_detector) CommandEnded: {'returncode': 0}
+[15.278266] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'install'}
+[15.297961] (lidar_cone_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector'], 'cwd': '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xue'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xue'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2020'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ef3ad703c38219889aae6c568d53701'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xue'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/xue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xue/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/xue:@/tmp/.ICE-unix/2020,unix/xue:/tmp/.ICE-unix/2020'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a316c2af_9118_4abf_a8fb_adca941d2e9f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L7OND3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2dd0ee9833.sock'), ('GNOME_TERMINAL_SERVICE', ':1.150'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ef3ad703c38219889aae6c568d53701'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector:/opt/ros/humble')]), 'shell': False}
+[15.303475] (lidar_cone_detector) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.304127] (lidar_cone_detector) StdoutLine: {'line': b'-- Installing: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector\n'}
+[15.305489] (lidar_cone_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector" to ""\n'}
+[15.305568] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector\n'}
+[15.305668] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/parent_prefix_path/lidar_cone_detector\n'}
+[15.305710] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.sh\n'}
+[15.305808] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.dsv\n'}
+[15.305856] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.sh\n'}
+[15.305932] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.dsv\n'}
+[15.305962] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.bash\n'}
+[15.305992] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.sh\n'}
+[15.306020] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.zsh\n'}
+[15.306052] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.dsv\n'}
+[15.306120] (lidar_cone_detector) StdoutLine: {'line': b'-- Installing: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.dsv\n'}
+[15.306207] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/packages/lidar_cone_detector\n'}
+[15.306239] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.306267] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig.cmake\n'}
+[15.306294] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig-version.cmake\n'}
+[15.306322] (lidar_cone_detector) StdoutLine: {'line': b'-- Up-to-date: /home/xue/25_Lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.xml\n'}
+[15.307945] (lidar_cone_detector) CommandEnded: {'returncode': 0}
+[15.330557] (lidar_cone_detector) JobEnded: {'identifier': 'lidar_cone_detector', 'rc': 0}
+[15.330931] (-) EventReactorShutdown: {}

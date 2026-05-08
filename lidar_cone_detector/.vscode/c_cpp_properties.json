@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/xing/GSIM/gazebo/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/xing/GSIM/gazebo/src/description/include/**",
+        "/home/xing/GSIM/gazebo/src/gsmart_gazebo/include/**",
+        "/home/xing/GSIM/gazebo/src/lidar_cone_detector/include/**",
+        "/usr/include/**",
+        "/opt/ros/foxy/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
