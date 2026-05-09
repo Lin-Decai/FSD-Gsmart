@@ -1,2 +1,0 @@
-Invoking command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
-Invoked command in '/home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xue/25_Lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32

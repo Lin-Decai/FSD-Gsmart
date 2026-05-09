@@ -1,0 +1,30 @@
+skidpad_detector_node:
+  ros__parameters:
+    # 订阅的雷达锥桶聚类结果话题
+    cluster_filtered_topic_name: /hesai/cone_positions
+    # 发布的 ICP 变换矩阵话题
+    transform_matrix_topic_name: /transform_matrix
+
+    # Remember to replace {YOUR_WORKSPACE} with your real workspace, like "home/lyw/opensource_ws/ros/planning/skidpad_detector/config/skidpad.pcd"
+    path:
+      skidpad_map: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/src/skidpad_icp/config/skidpad.pcd
+
+    length:
+      start: 15.0       # 起点到赛道中心距离
+      lidar2imu: 1.87   # 激光雷达到 IMU 的距离（用于坐标修正）
+      threshold: 2.0    # 最近邻匹配阈值（米）
+
+    icp:
+      max_correspondence_distance: 2.0        # 最大对应点距离
+      transformation_epsilon: 1e-10           # 收敛判断的变换增量阈值
+      euclidean_fitness_epsilon: 0.001        # 收敛判断的均方误差阈值
+      max_iterations: 100                     # 最大迭代次数
+
+    node_rate: 50 # 定时器频率 [Hz]
+    
+
+
+
+
+
+

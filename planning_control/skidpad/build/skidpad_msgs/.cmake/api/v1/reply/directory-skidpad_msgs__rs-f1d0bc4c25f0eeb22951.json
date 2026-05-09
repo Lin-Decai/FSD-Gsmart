@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "skidpad_msgs__rs",
+		"source" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_msgs/skidpad_msgs__rs"
+	}
+}

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+fsds_ros_bridge/__init__.py
+fsds_ros_bridge/bridge_node.py
+fsds_ros_bridge.egg-info/PKG-INFO
+fsds_ros_bridge.egg-info/SOURCES.txt
+fsds_ros_bridge.egg-info/dependency_links.txt
+fsds_ros_bridge.egg-info/entry_points.txt
+fsds_ros_bridge.egg-info/requires.txt
+fsds_ros_bridge.egg-info/top_level.txt
+fsds_ros_bridge.egg-info/zip-safe
+resource/fsds_ros_bridge

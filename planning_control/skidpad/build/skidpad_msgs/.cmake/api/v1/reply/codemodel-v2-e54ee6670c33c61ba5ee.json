@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9419a00f16e888aaca15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "skidpad_msgs__py",
+					"jsonFile" : "directory-skidpad_msgs__py-ac274100e1a7dee53f61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_msgs/skidpad_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "skidpad_msgs__rs",
+					"jsonFile" : "directory-skidpad_msgs__rs-f1d0bc4c25f0eeb22951.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_msgs/skidpad_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "skidpad_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_skidpad_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_skidpad_msgs_egg-ee3f8d524e341cd10a86.json",
+					"name" : "ament_cmake_python_build_skidpad_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_skidpad_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_skidpad_msgs-90c0eadd5394c6a499ee.json",
+					"name" : "ament_cmake_python_symlink_skidpad_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs-58e4b616e98b56fe4cd4.json",
+					"name" : "skidpad_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__cpp-4a6dfec9cd3dd8704ca5.json",
+					"name" : "skidpad_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "skidpad_msgs__py::@45ae1601bc4dfcf37cb1",
+					"jsonFile" : "target-skidpad_msgs__py-718584964053cd5eab1f.json",
+					"name" : "skidpad_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_generator_c-5e7bc33f7969c1e3f54e.json",
+					"name" : "skidpad_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_generator_py-45b60110dfcb1e5fe410.json",
+					"name" : "skidpad_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_c-e5ee70495065aed0db02.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_c__pyext-2a2b9496becdcc98e678.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_cpp-94e5d18a693f1c43af61.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_fastrtps_c-003f1e89f0484c7a932d.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_fastrtps_c__pyext-1db9388b3c41ce4147cf.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_fastrtps_cpp-22f54c1455bbd0f86647.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_introspection_c-22724a92e1594370fd60.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_introspection_c__pyext-4073be08df0c1ba4405d.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs__rosidl_typesupport_introspection_cpp-f4d48b8c985deb8339d7.json",
+					"name" : "skidpad_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "skidpad_msgs__rs::@af48e8210227d4e5610c",
+					"jsonFile" : "target-skidpad_msgs__rs-28526b2f5cd568418d67.json",
+					"name" : "skidpad_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skidpad_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skidpad_msgs_uninstall-9cc92ce00c9075c39f90.json",
+					"name" : "skidpad_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1f311a5d8f0fc4ad5a66.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_msgs",
+		"source" : "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/src/skidpad_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

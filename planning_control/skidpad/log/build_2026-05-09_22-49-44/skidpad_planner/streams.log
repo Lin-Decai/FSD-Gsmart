@@ -1,0 +1,72 @@
+[0.135s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/src/skidpad_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.265s] -- Detecting C compiler ABI info - done
+[0.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.323s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.467s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.492s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.495s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.500s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.546s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.659s] -- Looking for pthread.h
+[0.711s] -- Looking for pthread.h - found
+[0.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.764s] -- Found Threads: TRUE  
+[0.793s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.801s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.822s] -- Found skidpad_msgs: 1.0.0 (/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/share/skidpad_msgs/cmake)
+[0.840s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.883s] -- Configuring done
+[0.894s] -- Generating done
+[0.896s] -- Build files have been written to: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner
+[0.905s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/src/skidpad_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner
+[0.905s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner -- -j32 -l32
+[0.942s] [ 28%] Building CXX object CMakeFiles/skidpad_planner_node.dir/src/main.cpp.o
+[0.942s] [ 28%] Building CXX object CMakeFiles/skidpad_planner_node.dir/src/path_generator.cpp.o
+[0.942s] [ 42%] Building CXX object CMakeFiles/skidpad_planner_node.dir/src/path_generator_handle.cpp.o
+[0.942s] [ 57%] Building CXX object CMakeFiles/skidpad_planner_node.dir/src/Utils/visual.cpp.o
+[0.943s] [ 85%] Building CXX object CMakeFiles/skidpad_planner_node.dir/src/Track/skidpad_track.cpp.o
+[0.943s] [ 85%] Building CXX object CMakeFiles/skidpad_planner_node.dir/src/Track/track_base.cpp.o
+[8.891s] [100%] Linking CXX executable skidpad_planner_node
+[9.278s] [100%] Built target skidpad_planner_node
+[9.286s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner -- -j32 -l32
+[9.287s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner
+[9.292s] -- Install configuration: ""
+[9.292s] -- Execute custom install script
+[9.292s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/lib/skidpad_planner/skidpad_planner_node
+[9.298s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/config/skidpad_planner.yaml
+[9.303s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/launch/skidpad_planner.launch.py
+[9.309s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/ament_index/resource_index/package_run_dependencies/skidpad_planner
+[9.314s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/ament_index/resource_index/parent_prefix_path/skidpad_planner
+[9.320s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/environment/ament_prefix_path.sh
+[9.325s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/environment/ament_prefix_path.dsv
+[9.330s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/environment/path.sh
+[9.336s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/environment/path.dsv
+[9.341s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/local_setup.bash
+[9.346s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/local_setup.sh
+[9.351s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/local_setup.zsh
+[9.357s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/local_setup.dsv
+[9.363s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/package.dsv
+[9.368s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/ament_index/resource_index/packages/skidpad_planner
+[9.373s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/cmake/skidpad_plannerConfig.cmake
+[9.379s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/cmake/skidpad_plannerConfig-version.cmake
+[9.384s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_planner/share/skidpad_planner/package.xml
+[9.393s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner' returned '0': AMENT_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_planner

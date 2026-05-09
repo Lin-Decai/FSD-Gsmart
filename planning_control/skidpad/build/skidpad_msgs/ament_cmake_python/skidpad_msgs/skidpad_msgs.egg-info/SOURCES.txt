@@ -1,0 +1,6 @@
+setup.py
+skidpad_msgs/__init__.py
+skidpad_msgs.egg-info/PKG-INFO
+skidpad_msgs.egg-info/SOURCES.txt
+skidpad_msgs.egg-info/dependency_links.txt
+skidpad_msgs.egg-info/top_level.txt

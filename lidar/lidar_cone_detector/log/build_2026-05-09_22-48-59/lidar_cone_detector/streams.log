@@ -1,0 +1,111 @@
+[0.005s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.079s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.183s] -- Detecting CXX compiler ABI info - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.187s] -- Detecting CXX compile features
+[0.187s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.274s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.310s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.325s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.354s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.390s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.454s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.472s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.502s] -- Looking for pthread.h
+[0.551s] -- Looking for pthread.h - found
+[0.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.598s] -- Found Threads: TRUE  
+[0.625s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.641s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.664s] -- Checking for module 'eigen3'
+[0.675s] --   Found eigen3, version 3.4.0
+[0.703s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.703s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.724s] -- Checking for module 'flann'
+[0.734s] --   Found flann, version 1.9.1
+[0.766s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.766s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.358s] -- Checking for module 'libusb-1.0'
+[1.367s] --   Found libusb-1.0, version 1.0.25
+[1.390s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.391s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.426s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.519s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.524s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.528s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.614s] -- Found Qhull version 8.0.2
+[1.708s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.796s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.796s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.797s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.797s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.798s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.798s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.798s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.798s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.799s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.799s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.800s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.800s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.801s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.801s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.802s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.802s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.803s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.803s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.804s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.804s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.805s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.805s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.805s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.806s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.806s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.808s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.828s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.829s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.829s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.923s] -- Configuring done
+[2.080s] -- Generating done
+[2.093s] -- Build files have been written to: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector
+[2.109s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector
+[2.111s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[2.152s] [ 50%] Building CXX object CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o
+[10.542s] [100%] Linking CXX executable lidar_cone_detector
+[11.854s] [100%] Built target lidar_cone_detector
+[11.862s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[11.869s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector
+[11.873s] -- Install configuration: "Release"
+[11.874s] -- Execute custom install script
+[11.874s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector
+[11.880s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector
+[11.886s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/parent_prefix_path/lidar_cone_detector
+[11.891s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.sh
+[11.897s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.dsv
+[11.902s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.sh
+[11.908s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.dsv
+[11.914s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.bash
+[11.920s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.sh
+[11.925s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.zsh
+[11.930s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.dsv
+[11.936s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.dsv
+[11.941s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/packages/lidar_cone_detector
+[11.947s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.952s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig.cmake
+[11.957s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig-version.cmake
+[11.963s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.xml
+[11.970s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector

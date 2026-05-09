@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad_ws/build/skidpad_planner/skidpad_planner_node" "TARGETS" "skidpad_planner_node" "DESTINATION" "lib/skidpad_planner")

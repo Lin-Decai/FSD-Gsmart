@@ -1,0 +1,1 @@
+/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_bringup/ament_cmake_environment_hooks/local_setup.bash
