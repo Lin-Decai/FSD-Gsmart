@@ -7,6 +7,7 @@ FSDS ROS Bridge: 连接 FSDS 仿真器与 ROS 2。
 
 import rclpy
 from rclpy.node import Node
+from rclpy.qos import qos_profile_sensor_data
 import sensor_msgs.msg as sensor_msgs
 import std_msgs.msg as std_msgs
 from std_msgs.msg import Bool
@@ -60,7 +61,8 @@ class FSDSBridge(Node):
         # 发布器
         self.state_pub = self.create_publisher(CarState, '/estimation/slam/state', 10)
         self.lidar_pub = self.create_publisher(
-            sensor_msgs.PointCloud2, '/lidar_points', 10)
+            sensor_msgs.PointCloud2, '/lidar_points',
+            qos_profile=qos_profile_sensor_data)
         self.go_pub = self.create_publisher(Bool, '/go_cmd', 10)
 
         # 订阅器
@@ -119,6 +121,10 @@ class FSDSBridge(Node):
         pts_ros = pts_airsim.copy()
         pts_ros[:, 1] = -pts_airsim[:, 1]
 
+        # 拼接 intensity=0 (4 列: x,y,z,intensity, 兼容 PointXYZI)
+        pts_out = np.zeros((pts_ros.shape[0], 4), dtype=np.float32)
+        pts_out[:, :3] = pts_ros
+
         # 发布 PointCloud2
         header = std_msgs.Header()
         header.stamp = self.get_clock().now().to_msg()
@@ -134,9 +140,12 @@ class FSDSBridge(Node):
             sensor_msgs.PointField(
                 name='z', offset=8,
                 datatype=sensor_msgs.PointField.FLOAT32, count=1),
+            sensor_msgs.PointField(
+                name='intensity', offset=12,
+                datatype=sensor_msgs.PointField.FLOAT32, count=1),
         ]
         self.lidar_pub.publish(
-            pc2.create_cloud(header, fields, pts_ros.tolist()))
+            pc2.create_cloud(header, fields, pts_out))
 
     # ================================================================
     #  车辆状态发布 (目标坐标系: X=北=直道, Y=西=左侧)

@@ -1,0 +1,6 @@
+# Recorded cone positions from /hesai/cone_positions
+# frame_id: hesai_lidar
+# count: 2
+# x y z point_count
+4.209104 -1.742717 -0.679593 16
+4.206146 1.750098 -0.670722 15

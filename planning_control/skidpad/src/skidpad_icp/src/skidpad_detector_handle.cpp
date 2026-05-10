@@ -74,6 +74,9 @@ void SkidpadDetectorHandle::clusterFilteredCallback(const geometry_msgs::msg::Po
   cloud_msg->header = msg->header;
 
   skidpad_detector_->setclusterFiltered(cloud_msg);
+  RCLCPP_INFO_ONCE(this->get_logger(),
+      "Received cone positions from lidar cone detector (%zu cones).",
+      msg->poses.size());
 }
 
 void SkidpadDetectorHandle::run() {

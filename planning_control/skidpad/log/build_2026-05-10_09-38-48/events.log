@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (-) JobUnselected: {'identifier': 'icp_test_tools'}
+[0.000327] (-) JobUnselected: {'identifier': 'skidpad_bringup'}
+[0.000341] (-) JobUnselected: {'identifier': 'skidpad_control'}
+[0.000354] (-) JobUnselected: {'identifier': 'skidpad_msgs'}
+[0.000367] (-) JobUnselected: {'identifier': 'skidpad_planner'}
+[0.000382] (skidpad_icp) JobQueued: {'identifier': 'skidpad_icp', 'dependencies': OrderedDict()}
+[0.000406] (skidpad_icp) JobStarted: {'identifier': 'skidpad_icp'}
+[0.004904] (skidpad_icp) JobProgress: {'identifier': 'skidpad_icp', 'progress': 'cmake'}
+[0.005546] (skidpad_icp) JobProgress: {'identifier': 'skidpad_icp', 'progress': 'build'}
+[0.006019] (skidpad_icp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp', '--', '-j32', '-l32'], 'cwd': '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-138_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'limdegcai'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/limdegcai'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9abc9cbc193daac2eb3c8cbd69ffd64e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/limdegcai/miniconda3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'limdegcai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'limdegcai'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/home/limdegcai/miniconda3/condabin:/home/limdegcai/.npm-global/bin:/opt/ros/humble/bin:/home/limdegcai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/limdegcai-Legion-R9000P-ADR10:@/tmp/.ICE-unix/3014,unix/limdegcai-Legion-R9000P-ADR10:/tmp/.ICE-unix/3014'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a14c8cb_aaec_4aa2_a2b3_ad78a26ae41f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/limdegcai/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-9a0d50d0c418467f9f508517cf97636b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_SESSION_ID', '72f77d2a-5280-4e80-81da-f18d8d57e6a6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/limdegcai/miniconda3/bin/conda'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/limdegcai/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9abc9cbc193daac2eb3c8cbd69ffd64e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/limdegcai/.npm-global/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '144'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.063020] (skidpad_icp) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target skidpad_detector_node\n'}
+[0.084226] (skidpad_icp) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o\n'}
+[0.099758] (-) TimerEvent: {}
+[0.199860] (-) TimerEvent: {}
+[0.299963] (-) TimerEvent: {}
+[0.400072] (-) TimerEvent: {}
+[0.500183] (-) TimerEvent: {}
+[0.600292] (-) TimerEvent: {}
+[0.700410] (-) TimerEvent: {}
+[0.800513] (-) TimerEvent: {}
+[0.900621] (-) TimerEvent: {}
+[1.000731] (-) TimerEvent: {}
+[1.100842] (-) TimerEvent: {}
+[1.200946] (-) TimerEvent: {}
+[1.301057] (-) TimerEvent: {}
+[1.401168] (-) TimerEvent: {}
+[1.501275] (-) TimerEvent: {}
+[1.601382] (-) TimerEvent: {}
+[1.701500] (-) TimerEvent: {}
+[1.801607] (-) TimerEvent: {}
+[1.901726] (-) TimerEvent: {}
+[2.001847] (-) TimerEvent: {}
+[2.101954] (-) TimerEvent: {}
+[2.202062] (-) TimerEvent: {}
+[2.302168] (-) TimerEvent: {}
+[2.402278] (-) TimerEvent: {}
+[2.502378] (-) TimerEvent: {}
+[2.602497] (-) TimerEvent: {}
+[2.702605] (-) TimerEvent: {}
+[2.802712] (-) TimerEvent: {}
+[2.902816] (-) TimerEvent: {}
+[3.002925] (-) TimerEvent: {}
+[3.103033] (-) TimerEvent: {}
+[3.203140] (-) TimerEvent: {}
+[3.303287] (-) TimerEvent: {}
+[3.403470] (-) TimerEvent: {}
+[3.503627] (-) TimerEvent: {}
+[3.603747] (-) TimerEvent: {}
+[3.703870] (-) TimerEvent: {}
+[3.804042] (-) TimerEvent: {}
+[3.904207] (-) TimerEvent: {}
+[4.004359] (-) TimerEvent: {}
+[4.104504] (-) TimerEvent: {}
+[4.204644] (-) TimerEvent: {}
+[4.304803] (-) TimerEvent: {}
+[4.404934] (-) TimerEvent: {}
+[4.505028] (-) TimerEvent: {}
+[4.605118] (-) TimerEvent: {}
+[4.705208] (-) TimerEvent: {}
+[4.805299] (-) TimerEvent: {}
+[4.905392] (-) TimerEvent: {}
+[5.005496] (-) TimerEvent: {}
+[5.105587] (-) TimerEvent: {}
+[5.205677] (-) TimerEvent: {}
+[5.305768] (-) TimerEvent: {}
+[5.405857] (-) TimerEvent: {}
+[5.505946] (-) TimerEvent: {}
+[5.606037] (-) TimerEvent: {}
+[5.706138] (-) TimerEvent: {}
+[5.806230] (-) TimerEvent: {}
+[5.906318] (-) TimerEvent: {}
+[6.006420] (-) TimerEvent: {}
+[6.106511] (-) TimerEvent: {}
+[6.206633] (-) TimerEvent: {}
+[6.306739] (-) TimerEvent: {}
+[6.406833] (-) TimerEvent: {}
+[6.506925] (-) TimerEvent: {}
+[6.607016] (-) TimerEvent: {}
+[6.707107] (-) TimerEvent: {}
+[6.807198] (-) TimerEvent: {}
+[6.907289] (-) TimerEvent: {}
+[7.007379] (-) TimerEvent: {}
+[7.103983] (skidpad_icp) StdoutLine: {'line': b'[ 50%] Linking CXX executable skidpad_detector_node\n'}
+[7.107455] (-) TimerEvent: {}
+[7.207536] (-) TimerEvent: {}
+[7.307627] (-) TimerEvent: {}
+[7.407718] (-) TimerEvent: {}
+[7.507819] (-) TimerEvent: {}
+[7.607893] (-) TimerEvent: {}
+[7.707984] (-) TimerEvent: {}
+[7.808076] (-) TimerEvent: {}
+[7.908148] (-) TimerEvent: {}
+[8.008237] (-) TimerEvent: {}
+[8.108327] (-) TimerEvent: {}
+[8.208438] (-) TimerEvent: {}
+[8.308526] (-) TimerEvent: {}
+[8.408609] (-) TimerEvent: {}
+[8.508691] (-) TimerEvent: {}
+[8.608783] (-) TimerEvent: {}
+[8.708901] (-) TimerEvent: {}
+[8.808983] (-) TimerEvent: {}
+[8.909073] (-) TimerEvent: {}
+[9.009164] (-) TimerEvent: {}
+[9.109256] (-) TimerEvent: {}
+[9.209346] (-) TimerEvent: {}
+[9.309433] (-) TimerEvent: {}
+[9.409523] (-) TimerEvent: {}
+[9.509612] (-) TimerEvent: {}
+[9.609703] (-) TimerEvent: {}
+[9.709794] (-) TimerEvent: {}
+[9.809884] (-) TimerEvent: {}
+[9.909962] (-) TimerEvent: {}
+[10.010046] (-) TimerEvent: {}
+[10.110135] (-) TimerEvent: {}
+[10.210258] (-) TimerEvent: {}
+[10.310351] (-) TimerEvent: {}
+[10.410440] (-) TimerEvent: {}
+[10.510651] (-) TimerEvent: {}
+[10.610840] (-) TimerEvent: {}
+[10.638551] (skidpad_icp) StdoutLine: {'line': b'[100%] Built target skidpad_detector_node\n'}
+[10.645961] (skidpad_icp) CommandEnded: {'returncode': 0}
+[10.646356] (skidpad_icp) JobProgress: {'identifier': 'skidpad_icp', 'progress': 'install'}
+[10.652756] (skidpad_icp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp'], 'cwd': '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-138_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'limdegcai'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/limdegcai'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9abc9cbc193daac2eb3c8cbd69ffd64e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/limdegcai/miniconda3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'limdegcai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'limdegcai'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/home/limdegcai/miniconda3/condabin:/home/limdegcai/.npm-global/bin:/opt/ros/humble/bin:/home/limdegcai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/limdegcai-Legion-R9000P-ADR10:@/tmp/.ICE-unix/3014,unix/limdegcai-Legion-R9000P-ADR10:/tmp/.ICE-unix/3014'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a14c8cb_aaec_4aa2_a2b3_ad78a26ae41f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/limdegcai/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-9a0d50d0c418467f9f508517cf97636b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_SESSION_ID', '72f77d2a-5280-4e80-81da-f18d8d57e6a6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/limdegcai/miniconda3/bin/conda'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/limdegcai/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9abc9cbc193daac2eb3c8cbd69ffd64e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/limdegcai/.npm-global/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '144'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.658157] (skidpad_icp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.658420] (skidpad_icp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.658597] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/lib/skidpad_icp/skidpad_detector_node\n'}
+[10.658787] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/launch/skidpad_detector.launch.py\n'}
+[10.658939] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/config/skidpad.pcd\n'}
+[10.659014] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/config/skidpad_cones_target.txt\n'}
+[10.659086] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/config/skidpad_detector.yaml\n'}
+[10.659210] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/ament_index/resource_index/package_run_dependencies/skidpad_icp\n'}
+[10.659318] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/ament_index/resource_index/parent_prefix_path/skidpad_icp\n'}
+[10.659412] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/ament_prefix_path.sh\n'}
+[10.659507] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/ament_prefix_path.dsv\n'}
+[10.659593] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/path.sh\n'}
+[10.659693] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/path.dsv\n'}
+[10.659774] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.bash\n'}
+[10.659863] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.sh\n'}
+[10.659951] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.zsh\n'}
+[10.660039] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.dsv\n'}
+[10.660109] (skidpad_icp) StdoutLine: {'line': b'-- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/package.dsv\n'}
+[10.666095] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/ament_index/resource_index/packages/skidpad_icp\n'}
+[10.666179] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/cmake/skidpad_icpConfig.cmake\n'}
+[10.666260] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/cmake/skidpad_icpConfig-version.cmake\n'}
+[10.666356] (skidpad_icp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/package.xml\n'}
+[10.667477] (skidpad_icp) CommandEnded: {'returncode': 0}
+[10.676712] (skidpad_icp) JobEnded: {'identifier': 'skidpad_icp', 'rc': 0}
+[10.677032] (-) EventReactorShutdown: {}

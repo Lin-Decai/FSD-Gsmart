@@ -1,0 +1,17 @@
+[0.299s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge': PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/install/fsds_ros_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge/build --no-deps symlink_data
+[0.421s] running develop
+[0.492s] running egg_info
+[0.492s] writing fsds_ros_bridge.egg-info/PKG-INFO
+[0.492s] writing dependency_links to fsds_ros_bridge.egg-info/dependency_links.txt
+[0.492s] writing entry points to fsds_ros_bridge.egg-info/entry_points.txt
+[0.492s] writing requirements to fsds_ros_bridge.egg-info/requires.txt
+[0.492s] writing top-level names to fsds_ros_bridge.egg-info/top_level.txt
+[0.493s] reading manifest file 'fsds_ros_bridge.egg-info/SOURCES.txt'
+[0.493s] writing manifest file 'fsds_ros_bridge.egg-info/SOURCES.txt'
+[0.494s] running build_ext
+[0.494s] Creating /home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/install/fsds_ros_bridge/lib/python3.10/site-packages/fsds-ros-bridge.egg-link (link to .)
+[0.494s] Installing fsds_bridge_node script to /home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/install/fsds_ros_bridge/lib/fsds_ros_bridge
+[0.494s] 
+[0.494s] Installed /home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge
+[0.494s] running symlink_data
+[0.509s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge' returned '0': PYTHONPATH=/home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/install/fsds_ros_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/limdegcai/GSMART/CODE/FSD-Gsmart/fsds_ros_bridge/build/fsds_ros_bridge/build --no-deps symlink_data

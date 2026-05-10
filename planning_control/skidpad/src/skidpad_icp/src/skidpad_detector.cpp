@@ -68,10 +68,10 @@ void SkidpadDetector::loadFiles() {
   }
   RCLCPP_INFO(nh_->get_logger(), "Loaded PCD file with %zu points", source_cloud.points.size());
 
-    // PCD 文件已直接存储目标坐标系 (X=直道=北, Y=左侧=西), 无需转换
+    // PCD 文件已直接存储目标坐标系 (X=直道=北, Y=左侧=西), 加载时加上雷达前向偏移转为传感器系
   for (const auto& point : source_cloud.points) {
     geometry_msgs::msg::Point32 tmp;
-    tmp.x = point.x;
+    tmp.x = point.x + static_cast<float>(lidar2imu_);
     tmp.y = point.y;
     tmp.z = 0.0;
     skidpad_map_points_.push_back(tmp);
@@ -91,6 +91,11 @@ void SkidpadDetector::runAlgorithm() {
 
   auto cloud_in_pcl = ros2ToPcl(
       std::make_shared<sensor_msgs::msg::PointCloud2>(cluster_));
+
+  // 锥桶坐标从传感器系转到与地图一致的坐标系: X += lidar2imu
+  for (auto& pt : cloud_in_pcl->points) {
+    pt.x += static_cast<float>(lidar2imu_);
+  }
 
   pcl::PointCloud<pcl::PointXYZ>::Ptr source_cloud(new pcl::PointCloud<pcl::PointXYZ>);
   pcl::PointCloud<pcl::PointXYZ>::Ptr target_cloud(new pcl::PointCloud<pcl::PointXYZ>);
@@ -124,10 +129,10 @@ void SkidpadDetector::runAlgorithm() {
 
   // 检查匹配点对数量（至少需要3对才能计算刚体变换）
   if (source_cloud->points.size() < 3) {
-    RCLCPP_WARN(nh_->get_logger(),
+    RCLCPP_WARN_ONCE(nh_->get_logger(),
                 "Not enough correspondences: %zu, need at least 3. Skipping ICP.",
                 source_cloud->points.size());
-    return;  // 不改变 matchFlag，保持 false，下次可重试
+    return;
   }
 
   // ICP 配准
@@ -151,9 +156,9 @@ void SkidpadDetector::runAlgorithm() {
   }
 
   if (!icp.hasConverged()) {
-    RCLCPP_WARN(nh_->get_logger(), "ICP did not converge, fitness score: %f",
+    RCLCPP_WARN_ONCE(nh_->get_logger(), "ICP did not converge, fitness score: %f",
                 icp.getFitnessScore());
-    return;  // 不收敛也保持旧矩阵，但不标记成功
+    return;
   }
 
   transformation_ = icp.getFinalTransformation();

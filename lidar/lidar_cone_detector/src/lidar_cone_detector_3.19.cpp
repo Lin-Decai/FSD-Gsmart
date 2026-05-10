@@ -29,6 +29,8 @@ public:
         ground_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/hesai/ground_filtered", 10);
         cluster_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/hesai/clustered", 10);
         cone_pub_ = this->create_publisher<geometry_msgs::msg::PoseArray>("/hesai/cone_positions", 10);
+
+        start_time_ = this->now();
     }
 
 private:
@@ -208,7 +210,13 @@ void pointCloudCallback(const sensor_msgs::msg::PointCloud2::ConstSharedPtr inpu
             msg.poses.push_back(pose);
         }
         cone_pub_->publish(msg);
+
+        double elapsed = (this->now() - start_time_).seconds();
+        RCLCPP_INFO(this->get_logger(), "Published %zu cones [t=%.3fs]",
+                    cone_positions.size(), elapsed);
     }
+
+    rclcpp::Time start_time_;
 
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr sub_lidar;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr roi_pub_;

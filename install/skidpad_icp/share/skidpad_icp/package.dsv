@@ -1,0 +1,8 @@
+source;share/skidpad_icp/hook/cmake_prefix_path.ps1
+source;share/skidpad_icp/hook/cmake_prefix_path.dsv
+source;share/skidpad_icp/hook/cmake_prefix_path.sh
+source;share/skidpad_icp/local_setup.bash
+source;share/skidpad_icp/local_setup.dsv
+source;share/skidpad_icp/local_setup.ps1
+source;share/skidpad_icp/local_setup.sh
+source;share/skidpad_icp/local_setup.zsh
