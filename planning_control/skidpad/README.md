@@ -45,37 +45,36 @@ FSDS仿真器 ←→ [fsds_ros_bridge] ←→ ROS2 Topics
 | `skidpad_bringup` | C++ | 启动文件 |
 | `fsds_ros_bridge` | Python | FSDS ↔ ROS2 |
 
-## 构建 & 运行
+## 构建
 
 ```bash
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 source install/setup.bash
+```
 
-# 生成PCD (首次或地图变更后需要)
-python3 src/skidpad_bringup/tools/generate_pcd_from_fsds.py
+## 运行
 
-# 仿真
+本 workspace 提供 launch 文件。完整启动需先 source 其他 workspace（见根目录 README.md）。
+
+```bash
 ros2 launch skidpad_bringup skidpad_bringup.launch.py mode:=simulation
-
-# 可视化
 ros2 run skidpad_control skidpad_visualizer
 ```
 
+## 工具
+
+| 脚本 | 用途 |
+|------|------|
+| `src/skidpad_bringup/tools/generate_pcd_from_fsds.py` | 从仿真器生成 PCD 地图 |
+| `src/skidpad_bringup/tools/check_spawn_distance.py` | 验证发车点到起点线距离 |
+
 ## 迁移路径
 
-如果将工作空间移动到其他位置，需要修改以下文件中的硬编码路径：
+如果将工作空间移动到其他位置，修改以下硬编码路径：
 
-| 文件 | 需要修改的内容 |
-|------|---------------|
-| `src/skidpad_icp/config/skidpad_detector.yaml` | `skidpad_map` 的 PCD 文件路径 |
-| `src/skidpad_bringup/tools/generate_pcd_from_fsds.py` | PCD 输出目录 |
-| `src/icp_test_tools/config/test_params.yaml` | PCD 路径 |
-| `src/icp_test_tools/icp_test_tools/publisher_node.py` | PCD 路径默认值 |
-
-可将旧路径全部替换为新路径：
-```bash
-OLD=~/GSMART/CODE/skidpad
-NEW=~/GSMART/CODE/FSD-Gsmart/planning_control/skidpad
-grep -rl "$OLD" src/ | xargs sed -i "s|$OLD|$NEW|g"
-```
+| 文件 | 参数 |
+|------|------|
+| `src/skidpad_icp/config/skidpad_detector.yaml` | `skidpad_map` |
+| `src/icp_test_tools/config/test_params.yaml` | `pcd_path` |
+| `src/icp_test_tools/icp_test_tools/publisher_node.py` | `pcd_path` |
