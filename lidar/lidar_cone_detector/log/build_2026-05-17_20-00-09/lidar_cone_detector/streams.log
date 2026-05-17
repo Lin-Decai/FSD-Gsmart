@@ -1,0 +1,56 @@
+[0.008s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[0.030s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.106s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.111s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.130s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.131s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.168s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.169s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.276s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.292s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.313s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.337s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.552s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.556s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.661s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.666s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.670s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.765s] -- Found Qhull version 8.0.2
+[0.870s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.977s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.986s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.987s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.092s] -- Configuring done
+[1.269s] -- Generating done
+[1.283s] -- Build files have been written to: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector
+[1.326s] Consolidate compiler generated dependencies of target lidar_cone_detector
+[1.346s] [ 50%] Building CXX object CMakeFiles/lidar_cone_detector.dir/src/lidar_cone_detector_3.19.cpp.o
+[11.086s] [100%] Linking CXX executable lidar_cone_detector
+[12.601s] [100%] Built target lidar_cone_detector
+[12.611s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector -- -j32 -l32
+[12.620s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector
+[12.625s] -- Install configuration: "Release"
+[12.625s] -- Execute custom install script
+[12.625s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector
+[12.625s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/config/lidar_cone_detector.yaml
+[12.634s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector
+[12.634s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/parent_prefix_path/lidar_cone_detector
+[12.634s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.sh
+[12.634s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.dsv
+[12.635s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.sh
+[12.635s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/path.dsv
+[12.635s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.bash
+[12.635s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.sh
+[12.635s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.zsh
+[12.635s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/local_setup.dsv
+[12.635s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.dsv
+[12.642s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/packages/lidar_cone_detector
+[12.642s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.642s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig.cmake
+[12.642s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/cmake/lidar_cone_detectorConfig-version.cmake
+[12.642s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/package.xml
+[12.644s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector

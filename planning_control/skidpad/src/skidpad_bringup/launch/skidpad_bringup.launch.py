@@ -17,6 +17,7 @@ def generate_launch_description():
     is_sim = PythonExpression(["'", mode, "' == 'simulation'"])
 
     # ---------- 各包 config 路径 ----------
+    lidar_dir   = get_package_share_directory('lidar_cone_detector')
     icp_dir     = get_package_share_directory('skidpad_icp')
     planner_dir = get_package_share_directory('skidpad_planner')
     control_dir = get_package_share_directory('skidpad_control')
@@ -33,12 +34,13 @@ def generate_launch_description():
     )
 
     # ---------- 雷达锥桶检测 ----------
-    # 仿真和实车统一: 订阅 /lidar_points (PointCloud2), 发布 /hesai/cone_positions (PoseArray)
+    # 订阅 /lidar_points (PointCloud2), 发布 /hesai/cone_positions (PoseArray)
     lidar_cone_detector = Node(
         package='lidar_cone_detector',
         executable='lidar_cone_detector',
         name='hesai_processor',
         output='screen',
+        parameters=[os.path.join(lidar_dir, 'config', 'lidar_cone_detector.yaml')],
     )
 
     # ---------- ICP 节点 ----------

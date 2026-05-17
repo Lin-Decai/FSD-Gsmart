@@ -1,4 +1,5 @@
 /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/lib/lidar_cone_detector/lidar_cone_detector
+/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/config/lidar_cone_detector.yaml
 /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector
 /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/ament_index/resource_index/parent_prefix_path/lidar_cone_detector
 /home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/install/lidar_cone_detector/share/lidar_cone_detector/environment/ament_prefix_path.sh

@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp -- -j32 -l32
+[0.128s] [ 25%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector_handle.cpp.o[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/skidpad_detector_node.dir/src/skidpad_detector.cpp.o[0m
+[7.462s] [ 75%] [32m[1mLinking CXX executable skidpad_detector_node[0m
+[11.036s] [100%] Built target skidpad_detector_node
+[11.045s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp -- -j32 -l32
+[11.046s] Invoking command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp
+[11.050s] -- Install configuration: ""
+[11.051s] -- Execute custom install script
+[11.051s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/lib/skidpad_icp/skidpad_detector_node
+[11.052s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/launch/skidpad_detector.launch.py
+[11.052s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/config/skidpad.pcd
+[11.052s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/config/skidpad_cones_target.txt
+[11.052s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/config/skidpad_detector.yaml
+[11.053s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/ament_index/resource_index/package_run_dependencies/skidpad_icp
+[11.053s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/ament_index/resource_index/parent_prefix_path/skidpad_icp
+[11.053s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/ament_prefix_path.sh
+[11.053s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/ament_prefix_path.dsv
+[11.053s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/path.sh
+[11.053s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/environment/path.dsv
+[11.054s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.bash
+[11.054s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.sh
+[11.054s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.zsh
+[11.054s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/local_setup.dsv
+[11.054s] -- Symlinking: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/package.dsv
+[11.060s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/ament_index/resource_index/packages/skidpad_icp
+[11.060s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/cmake/skidpad_icpConfig.cmake
+[11.060s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/cmake/skidpad_icpConfig-version.cmake
+[11.060s] -- Up-to-date symlink: /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/install/skidpad_icp/share/skidpad_icp/package.xml
+[11.062s] Invoked command in '/home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/limdegcai/GSMART/CODE/FSD-Gsmart/planning_control/skidpad/build/skidpad_icp

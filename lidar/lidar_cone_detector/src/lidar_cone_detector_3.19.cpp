@@ -30,6 +30,15 @@ public:
         cluster_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/hesai/clustered", 10);
         cone_pub_ = this->create_publisher<geometry_msgs::msg::PoseArray>("/hesai/cone_positions", 10);
 
+        // 聚类参数 (YAML 可配置, 仿真与实车各自调参)
+        this->declare_parameter<int>("cluster.min_size", 10);
+        this->declare_parameter<int>("cluster.max_size", 2000);
+        this->declare_parameter<double>("cluster.tolerance", 0.5);
+
+        this->get_parameter("cluster.min_size", cluster_min_size_);
+        this->get_parameter("cluster.max_size", cluster_max_size_);
+        this->get_parameter("cluster.tolerance", cluster_tolerance_);
+
         start_time_ = this->now();
     }
 
@@ -56,7 +65,8 @@ void pointCloudCallback(const sensor_msgs::msg::PointCloud2::ConstSharedPtr inpu
             return !std::isfinite(point.x) || !std::isfinite(point.y) || !std::isfinite(point.z);
         }), cloud->end());
 
-    RCLCPP_INFO(this->get_logger(), "Processing point cloud with %zu points", cloud->size());
+    RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 5000,
+        "Processing point cloud with %zu points", cloud->size());
 
     auto roi_cloud = extractROI(cloud);
     publishPointCloud(roi_cloud, roi_pub_);
@@ -135,9 +145,9 @@ void pointCloudCallback(const sensor_msgs::msg::PointCloud2::ConstSharedPtr inpu
     
         std::vector<pcl::PointIndices> cluster_indices;
         pcl::EuclideanClusterExtraction<pcl::PointXYZI> ec;
-        ec.setClusterTolerance(0.5);  // 调整聚类容差
-        ec.setMinClusterSize(10);     // 设置最小点数
-        ec.setMaxClusterSize(2000);    // 设置最大点数
+        ec.setClusterTolerance(cluster_tolerance_);
+        ec.setMinClusterSize(cluster_min_size_);
+        ec.setMaxClusterSize(cluster_max_size_);
         ec.setSearchMethod(tree);
         ec.setInputCloud(cloud);
         ec.extract(cluster_indices);
@@ -212,11 +222,15 @@ void pointCloudCallback(const sensor_msgs::msg::PointCloud2::ConstSharedPtr inpu
         cone_pub_->publish(msg);
 
         double elapsed = (this->now() - start_time_).seconds();
-        RCLCPP_INFO(this->get_logger(), "Published %zu cones [t=%.3fs]",
-                    cone_positions.size(), elapsed);
+        RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 5000,
+            "Published %zu cones [t=%.3fs]",
+            cone_positions.size(), elapsed);
     }
 
     rclcpp::Time start_time_;
+    int cluster_min_size_;
+    int cluster_max_size_;
+    double cluster_tolerance_;
 
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr sub_lidar;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr roi_pub_;

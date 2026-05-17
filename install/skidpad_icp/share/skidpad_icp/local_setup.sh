@@ -1,1 +1,0 @@
-/home/limdegcai/GSMART/CODE/FSD-Gsmart/build/skidpad_icp/ament_cmake_environment_hooks/local_setup.sh

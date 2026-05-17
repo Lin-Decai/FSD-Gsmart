@@ -17,6 +17,8 @@ import sensor_msgs_py.point_cloud2 as pc2
 import sys
 import os
 import math
+import time
+import threading
 import numpy as np
 
 FSDS_PYTHON_PATH = os.path.expanduser('~/Formula-Student-Driverless-Simulator/python')
@@ -39,8 +41,8 @@ class FSDSBridge(Node):
     def __init__(self):
         super().__init__('fsds_bridge')
 
-        self.declare_parameter('lidar_rate', 10)
-        self.declare_parameter('state_rate', 100)
+        self.declare_parameter('lidar_rate', 5)
+        self.declare_parameter('state_rate', 30)
         self.declare_parameter('lidar_name', 'Lidar1')
 
         lidar_rate = self.get_parameter('lidar_rate').value
@@ -68,10 +70,18 @@ class FSDSBridge(Node):
         # 订阅器
         self.cmd_sub = self.create_subscription(
             ControlCommand, '/control_command', self.control_callback, 10)
+        self.icp_sub = self.create_subscription(
+            std_msgs.Float64MultiArray, '/transform_matrix',
+            self._on_icp_done, 10)
+        self.lidar_stopped = False
 
         # 定时器
         self.state_timer = self.create_timer(1.0 / state_rate, self.state_callback)
         self.lidar_timer = self.create_timer(1.0 / lidar_rate, self.lidar_callback)
+
+        # RPC 锁和 lidar 线程状态
+        self.rpc_lock = threading.Lock()
+        self.lidar_busy = False
 
         # 启动时发 GO 信号
         self._publish_go_signal()
@@ -85,47 +95,58 @@ class FSDSBridge(Node):
         self.go_pub.publish(msg)
         self.get_logger().info('GO signal sent')
 
+    def _on_icp_done(self, msg):
+        if self.lidar_stopped:
+            return
+        self.lidar_timer.cancel()
+        self.lidar_stopped = True
+        self.get_logger().info(
+            'ICP transform received — lidar pipeline stopped to save CPU')
+
     # ================================================================
     #  原始雷达点云发布 (/lidar_points)
     #  世界坐标系 -> 传感器坐标系 (hesai_lidar: X=前, Y=左, Z=上)
     # ================================================================
     def lidar_callback(self):
-        try:
-            data = self.client.getLidarData(
-                lidar_name=self.lidar_name, vehicle_name='FSCar')
-        except Exception as e:
-            self.get_logger().warn(
-                f'Failed to get lidar data: {e}', throttle_duration_sec=5)
+        if self.lidar_busy:
             return
+        self.lidar_busy = True
+        threading.Thread(target=self._do_lidar, daemon=True).start()
+
+    def _do_lidar(self):
+        t0 = time.time()
+        with self.rpc_lock:
+            try:
+                data = self.client.getLidarData(
+                    lidar_name=self.lidar_name, vehicle_name='FSCar')
+            except Exception as e:
+                self.get_logger().warn(
+                    f'Failed to get lidar data: {e}', throttle_duration_sec=5)
+                self.lidar_busy = False
+                return
+        t_rpc = time.time() - t0
 
         if not data.point_cloud:
+            self.lidar_busy = False
             return
 
-        # 原始点云 (世界坐标系, 交错 XYZ float 列表, 单位: 米)
         pts_world = np.array(data.point_cloud, dtype=np.float32).reshape(-1, 3)
 
-        # 雷达在世界坐标系下的位姿
         lp = data.pose.position
         lo = data.pose.orientation
         lidar_pos = np.array([lp.x_val, lp.y_val, lp.z_val], dtype=np.float32)
         q = np.array([lo.w_val, lo.x_val, lo.y_val, lo.z_val], dtype=np.float32)
 
-        # Step 1: 世界 -> AirSim 传感器坐标系 (X=前, Y=右, Z=上)
         pts_rel = pts_world - lidar_pos
         R = quat_to_rot_matrix(q)
-        # R 是世界->传感器旋转, R^T = 传感器->世界.
-        # p_sensor = R^T @ p_rel (世界点转到传感器系)
-        pts_airsim = pts_rel @ R  # (N,3) @ (3,3) = (N,3)
+        pts_airsim = pts_rel @ R
 
-        # Step 2: AirSim 传感器系 -> ROS hesai_lidar 传感器系 (Y 轴取反: 右->左)
         pts_ros = pts_airsim.copy()
         pts_ros[:, 1] = -pts_airsim[:, 1]
 
-        # 拼接 intensity=0 (4 列: x,y,z,intensity, 兼容 PointXYZI)
         pts_out = np.zeros((pts_ros.shape[0], 4), dtype=np.float32)
         pts_out[:, :3] = pts_ros
 
-        # 发布 PointCloud2
         header = std_msgs.Header()
         header.stamp = self.get_clock().now().to_msg()
         header.frame_id = 'hesai_lidar'
@@ -146,17 +167,23 @@ class FSDSBridge(Node):
         ]
         self.lidar_pub.publish(
             pc2.create_cloud(header, fields, pts_out))
+        t_total = time.time() - t0
+        self.get_logger().info(
+            f'Lidar: {pts_world.shape[0]} pts, RPC={t_rpc*1000:.0f}ms, total={t_total*1000:.0f}ms',
+            throttle_duration_sec=5)
+        self.lidar_busy = False
 
     # ================================================================
     #  车辆状态发布 (目标坐标系: X=北=直道, Y=西=左侧)
     # ================================================================
     def state_callback(self):
-        try:
-            fsds_state = self.client.getCarState()
-        except Exception as e:
-            self.get_logger().warn(
-                f'Failed to get car state: {e}', throttle_duration_sec=5)
-            return
+        with self.rpc_lock:
+            try:
+                fsds_state = self.client.getCarState()
+            except Exception as e:
+                self.get_logger().warn(
+                    f'Failed to get car state: {e}', throttle_duration_sec=5)
+                return
 
         kin = fsds_state.kinematics_estimated
 
@@ -216,11 +243,12 @@ class FSDSBridge(Node):
             controls.brake = min(1.0, -throttle_val)
         controls.steering = steering_val
 
-        try:
-            self.client.setCarControls(controls)
-        except Exception as e:
-            self.get_logger().warn(
-                f'Failed to send controls: {e}', throttle_duration_sec=5)
+        with self.rpc_lock:
+            try:
+                self.client.setCarControls(controls)
+            except Exception as e:
+                self.get_logger().warn(
+                    f'Failed to send controls: {e}', throttle_duration_sec=5)
 
 
 def main(args=None):

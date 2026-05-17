@@ -318,6 +318,9 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "lidar_cone_detector" "DESTINATION" "lib/lidar_cone_detector")
 include("/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(DIRECTORY "config" "DESTINATION" "share/lidar_cone_detector")
+ament_cmake_symlink_install_directory("/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector" DIRECTORY "config" "DESTINATION" "share/lidar_cone_detector")
+
 # install(FILES "/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector" FILES "/home/limdegcai/GSMART/CODE/FSD-Gsmart/lidar/lidar_cone_detector/build/lidar_cone_detector/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lidar_cone_detector" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

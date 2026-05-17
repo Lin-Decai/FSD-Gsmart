@@ -6,9 +6,8 @@
 import rclpy
 from rclpy.node import Node
 from skidpad_msgs.msg import CarState, Trajectory, ControlCommand
-from sensor_msgs.msg import PointCloud2
+from geometry_msgs.msg import PoseArray
 from visualization_msgs.msg import MarkerArray
-import sensor_msgs_py.point_cloud2 as pc2
 import numpy as np
 import math
 
@@ -32,7 +31,7 @@ class Visualizer(Node):
         self.traj_sub = self.create_subscription(
             Trajectory, '/planning/ref_path', self.traj_callback, 10)
         self.cone_sub = self.create_subscription(
-            PointCloud2, '/perception/lidar_cluster', self.cone_callback, 10)
+            PoseArray, '/hesai/cone_positions', self.cone_callback, 10)
         self.cmd_sub = self.create_subscription(
             ControlCommand, '/control_command', self.cmd_callback, 10)
         self.global_sub = self.create_subscription(
@@ -63,11 +62,8 @@ class Visualizer(Node):
     def traj_callback(self, msg: Trajectory):
         self.trajectory_points = [(pt.pts.x, pt.pts.y) for pt in msg.trajectory]
 
-    def cone_callback(self, msg: PointCloud2):
-        pts = []
-        for pt in pc2.read_points(msg, field_names=('x', 'y'), skip_nans=True):
-            pts.append((pt[0], pt[1]))
-        self.cones = pts
+    def cone_callback(self, msg: PoseArray):
+        self.cones = [(p.position.x, p.position.y) for p in msg.poses]
 
     def cmd_callback(self, msg: ControlCommand):
         self.throttle = msg.throttle.data

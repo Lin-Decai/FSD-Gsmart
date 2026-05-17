@@ -44,6 +44,9 @@ target_link_libraries(lidar_cone_detector
 install(TARGETS lidar_cone_detector
   DESTINATION lib/${PROJECT_NAME})
 
+install(DIRECTORY config
+  DESTINATION share/${PROJECT_NAME})
+
 # Export dependencies
 ament_export_dependencies(
   rclcpp

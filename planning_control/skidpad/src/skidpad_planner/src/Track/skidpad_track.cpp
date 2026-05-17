@@ -8,17 +8,16 @@ namespace ns_skidpad_planner {
 
 // ============================================================================
 //  全局轨迹生成: 直道→右圈2圈→左圈2圈→直道
-//  圆心: 右圈 (forward_distance+car_length, -circle_radius)
-//        左圈 (forward_distance+car_length, +circle_radius)
+//  切点/圆心: X=forward_distance=15.00
+//        右圈 (15.00, -9.125), 左圈 (15.00, +9.125)
 // ============================================================================
 bool Skidpad_Track::genTraj() {
-    const double car_length     = param_.car_length;
     double interval             = param_.interval;
     double forward_distance     = param_.forward_distance;
     double circle_radius        = param_.circle_radius;
     const double circle_curv    = 1.0 / circle_radius;
 
-    double right_circle_x = forward_distance + car_length;
+    double right_circle_x = forward_distance;
     double right_circle_y = -circle_radius;
     double left_circle_x  = right_circle_x;
     double left_circle_y  = circle_radius;
@@ -26,8 +25,8 @@ bool Skidpad_Track::genTraj() {
     TrajectoryPoint tmp_pt;
     trajectory_.clear();
 
-    // 直线段1: 从车后2m到右圈入口 (car_length+forward_distance=16.88m)
-    for (double i = -2.0; i < (car_length + forward_distance); i += interval) {
+    // 直线段1: 从车后2m到切点 (forward_distance=15.00m)
+    for (double i = -2.0; i < forward_distance; i += interval) {
         tmp_pt.pts = cv::Point2f(i, 0);
         tmp_pt.yaw = 0;
         tmp_pt.curvature = 0.0;
@@ -64,9 +63,9 @@ bool Skidpad_Track::genTraj() {
     }
     idx_end_left_ = trajectory_.size();
 
-    // 直线段2: 从左圈切点驶出15m
-    for (double i = car_length + forward_distance;
-         i < (car_length + forward_distance) + 15;
+    // 直线段2: 从切点驶出15m (forward_distance → forward_distance+15)
+    for (double i = forward_distance;
+         i < forward_distance + 15.0;
          i += interval) {
         tmp_pt.pts = cv::Point2f(i, 0);
         tmp_pt.yaw = 0;

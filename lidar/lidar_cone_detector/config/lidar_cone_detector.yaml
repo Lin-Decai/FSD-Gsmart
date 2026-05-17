@@ -1,0 +1,9 @@
+hesai_processor:
+  ros__parameters:
+    # 聚类参数
+    # 仿真: min_size=5 (低密度点云, 降低门槛捕捉远距离锥桶)
+    # 实车: min_size=10 (高密度点云, 防止噪声)
+    cluster:
+      min_size: 5
+      max_size: 2000
+      tolerance: 0.5
